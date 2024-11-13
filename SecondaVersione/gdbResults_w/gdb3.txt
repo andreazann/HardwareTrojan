@@ -1,0 +1,3845 @@
+[New Thread 14984.0x3a24]
+[New Thread 14984.0x3a3c]
+
+119		subl	$316, %esp
+eax            0x2	2
+ecx            0x61ff40	6422336
+edx            0x0	0
+ebx            0x271000	2560000
+esp            0x61ff1c	0x61ff1c
+ebp            0x61ff28	0x61ff28
+esi            0x4012e0	4199136
+edi            0x4012e0	4199136
+eip            0x401525	0x401525 <main+16>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+120		movl	%ecx, %ebx
+eax            0x2	2
+ecx            0x61ff40	6422336
+edx            0x0	0
+ebx            0x271000	2560000
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x4012e0	4199136
+edi            0x4012e0	4199136
+eip            0x40152b	0x40152b <main+22>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+121		call	___main
+eax            0x2	2
+ecx            0x61ff40	6422336
+edx            0x0	0
+ebx            0x61ff40	6422336
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x4012e0	4199136
+edi            0x4012e0	4199136
+eip            0x40152d	0x40152d <main+24>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+122		movl	%esp, %eax
+eax            0x1	1
+ecx            0x61ff40	6422336
+edx            0x0	0
+ebx            0x61ff40	6422336
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x4012e0	4199136
+edi            0x4012e0	4199136
+eip            0x401532	0x401532 <main+29>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+123		movl	%eax, %esi
+eax            0x61fde0	6421984
+ecx            0x61ff40	6422336
+edx            0x0	0
+ebx            0x61ff40	6422336
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x4012e0	4199136
+edi            0x4012e0	4199136
+eip            0x401534	0x401534 <main+31>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+124		movl	4(%ebx), %eax
+eax            0x61fde0	6421984
+ecx            0x61ff40	6422336
+edx            0x0	0
+ebx            0x61ff40	6422336
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401536	0x401536 <main+33>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+125		movl	4(%eax), %eax
+eax            0x2c40db0	46402992
+ecx            0x61ff40	6422336
+edx            0x0	0
+ebx            0x61ff40	6422336
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401539	0x401539 <main+36>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+126		movl	%eax, -32(%ebp)
+eax            0x2c41210	46404112
+ecx            0x61ff40	6422336
+edx            0x0	0
+ebx            0x61ff40	6422336
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40153c	0x40153c <main+39>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+127		movl	$LC0, 4(%esp)
+eax            0x2c41210	46404112
+ecx            0x61ff40	6422336
+edx            0x0	0
+ebx            0x61ff40	6422336
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40153f	0x40153f <main+42>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+128		movl	-32(%ebp), %eax
+eax            0x2c41210	46404112
+ecx            0x61ff40	6422336
+edx            0x0	0
+ebx            0x61ff40	6422336
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401547	0x401547 <main+50>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+129		movl	%eax, (%esp)
+eax            0x2c41210	46404112
+ecx            0x61ff40	6422336
+edx            0x0	0
+ebx            0x61ff40	6422336
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40154a	0x40154a <main+53>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+130		call	_fopen
+eax            0x2c41210	46404112
+ecx            0x61ff40	6422336
+edx            0x0	0
+ebx            0x61ff40	6422336
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40154d	0x40154d <main+56>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+131		movl	%eax, -36(%ebp)
+eax            0x76952660	1989486176
+ecx            0x769132da	1989227226
+edx            0x0	0
+ebx            0x61ff40	6422336
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401552	0x401552 <main+61>
+eflags         0x216	[ PF AF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+132		cmpl	$0, -36(%ebp)
+eax            0x76952660	1989486176
+ecx            0x769132da	1989227226
+edx            0x0	0
+ebx            0x61ff40	6422336
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401555	0x401555 <main+64>
+eflags         0x216	[ PF AF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+133		jne	L9
+eax            0x76952660	1989486176
+ecx            0x769132da	1989227226
+edx            0x0	0
+ebx            0x61ff40	6422336
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401559	0x401559 <main+68>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+141		movl	-36(%ebp), %eax
+eax            0x76952660	1989486176
+ecx            0x769132da	1989227226
+edx            0x0	0
+ebx            0x61ff40	6422336
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401578	0x401578 <main+99>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+142		movl	%eax, 8(%esp)
+eax            0x76952660	1989486176
+ecx            0x769132da	1989227226
+edx            0x0	0
+ebx            0x61ff40	6422336
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40157b	0x40157b <main+102>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+143		movl	$255, 4(%esp)
+eax            0x76952660	1989486176
+ecx            0x769132da	1989227226
+edx            0x0	0
+ebx            0x61ff40	6422336
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40157f	0x40157f <main+106>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+144		leal	-303(%ebp), %eax
+eax            0x76952660	1989486176
+ecx            0x769132da	1989227226
+edx            0x0	0
+ebx            0x61ff40	6422336
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401587	0x401587 <main+114>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+145		movl	%eax, (%esp)
+eax            0x61fdf9	6422009
+ecx            0x769132da	1989227226
+edx            0x0	0
+ebx            0x61ff40	6422336
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40158d	0x40158d <main+120>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+146		call	_fgets
+eax            0x61fdf9	6422009
+ecx            0x769132da	1989227226
+edx            0x0	0
+ebx            0x61ff40	6422336
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401590	0x401590 <main+123>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+147		leal	-303(%ebp), %eax
+eax            0x61fdf9	6422009
+ecx            0x76917d37	1989246263
+edx            0x0	0
+ebx            0x61ff40	6422336
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401595	0x401595 <main+128>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+148		movl	%eax, (%esp)
+eax            0x61fdf9	6422009
+ecx            0x76917d37	1989246263
+edx            0x0	0
+ebx            0x61ff40	6422336
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40159b	0x40159b <main+134>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+149		call	_atoi
+eax            0x61fdf9	6422009
+ecx            0x76917d37	1989246263
+edx            0x0	0
+ebx            0x61ff40	6422336
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40159e	0x40159e <main+137>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+150		movl	%eax, -40(%ebp)
+eax            0x2	2
+ecx            0x2c405b8	46400952
+edx            0x8	8
+ebx            0x61ff40	6422336
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4015a3	0x4015a3 <main+142>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+151		movl	-40(%ebp), %eax
+eax            0x2	2
+ecx            0x2c405b8	46400952
+edx            0x8	8
+ebx            0x61ff40	6422336
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4015a6	0x4015a6 <main+145>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+152		leal	-1(%eax), %edx
+eax            0x2	2
+ecx            0x2c405b8	46400952
+edx            0x8	8
+ebx            0x61ff40	6422336
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4015a9	0x4015a9 <main+148>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+153		movl	%edx, -44(%ebp)
+eax            0x2	2
+ecx            0x2c405b8	46400952
+edx            0x1	1
+ebx            0x61ff40	6422336
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4015ac	0x4015ac <main+151>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+154		sall	$2, %eax
+eax            0x2	2
+ecx            0x2c405b8	46400952
+edx            0x1	1
+ebx            0x61ff40	6422336
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4015af	0x4015af <main+154>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+155		leal	3(%eax), %edx
+eax            0x8	8
+ecx            0x2c405b8	46400952
+edx            0x1	1
+ebx            0x61ff40	6422336
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4015b2	0x4015b2 <main+157>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+156		movl	$16, %eax
+eax            0x8	8
+ecx            0x2c405b8	46400952
+edx            0xb	11
+ebx            0x61ff40	6422336
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4015b5	0x4015b5 <main+160>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+157		subl	$1, %eax
+eax            0x10	16
+ecx            0x2c405b8	46400952
+edx            0xb	11
+ebx            0x61ff40	6422336
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4015ba	0x4015ba <main+165>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+158		addl	%edx, %eax
+eax            0xf	15
+ecx            0x2c405b8	46400952
+edx            0xb	11
+ebx            0x61ff40	6422336
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4015bd	0x4015bd <main+168>
+eflags         0x216	[ PF AF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+159		movl	$16, %ebx
+eax            0x1a	26
+ecx            0x2c405b8	46400952
+edx            0xb	11
+ebx            0x61ff40	6422336
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4015bf	0x4015bf <main+170>
+eflags         0x212	[ AF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+160		movl	$0, %edx
+eax            0x1a	26
+ecx            0x2c405b8	46400952
+edx            0xb	11
+ebx            0x10	16
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4015c4	0x4015c4 <main+175>
+eflags         0x212	[ AF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+161		divl	%ebx
+eax            0x1a	26
+ecx            0x2c405b8	46400952
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4015c9	0x4015c9 <main+180>
+eflags         0x212	[ AF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+162		imull	$16, %eax, %eax
+eax            0x1	1
+ecx            0x2c405b8	46400952
+edx            0xa	10
+ebx            0x10	16
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4015cb	0x4015cb <main+182>
+eflags         0x212	[ AF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+163		call	___chkstk_ms
+eax            0x10	16
+ecx            0x2c405b8	46400952
+edx            0xa	10
+ebx            0x10	16
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4015ce	0x4015ce <main+185>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+__chkstk_ms () at ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:163
+163	../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S: No such file or directory.
+eax            0x10	16
+ecx            0x2c405b8	46400952
+edx            0xa	10
+ebx            0x10	16
+esp            0x61fddc	0x61fddc
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4021f0	0x4021f0 <__chkstk_ms>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+165	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+eax            0x10	16
+ecx            0x2c405b8	46400952
+edx            0xa	10
+ebx            0x10	16
+esp            0x61fdd8	0x61fdd8
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4021f1	0x4021f1 <__chkstk_ms+1>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+167	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+eax            0x10	16
+ecx            0x2c405b8	46400952
+edx            0xa	10
+ebx            0x10	16
+esp            0x61fdd4	0x61fdd4
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4021f2	0x4021f2 <__chkstk_ms+2>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+168	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+eax            0x10	16
+ecx            0x2c405b8	46400952
+edx            0xa	10
+ebx            0x10	16
+esp            0x61fdd4	0x61fdd4
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4021f7	0x4021f7 <__chkstk_ms+7>
+eflags         0x283	[ CF SF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+169	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+eax            0x10	16
+ecx            0x61fde0	6421984
+edx            0xa	10
+ebx            0x10	16
+esp            0x61fdd4	0x61fdd4
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4021fb	0x4021fb <__chkstk_ms+11>
+eflags         0x283	[ CF SF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+177	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+eax            0x10	16
+ecx            0x61fde0	6421984
+edx            0xa	10
+ebx            0x10	16
+esp            0x61fdd4	0x61fdd4
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x402212	0x402212 <__chkstk_ms+34>
+eflags         0x283	[ CF SF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+178	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+eax            0x10	16
+ecx            0x61fdd0	6421968
+edx            0xa	10
+ebx            0x10	16
+esp            0x61fdd4	0x61fdd4
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x402214	0x402214 <__chkstk_ms+36>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+180	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+eax            0x10	16
+ecx            0x61fdd0	6421968
+edx            0xa	10
+ebx            0x10	16
+esp            0x61fdd4	0x61fdd4
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x402217	0x402217 <__chkstk_ms+39>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+182	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+eax            0x10	16
+ecx            0x61fdd0	6421968
+edx            0xa	10
+ebx            0x10	16
+esp            0x61fdd8	0x61fdd8
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x402218	0x402218 <__chkstk_ms+40>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+184	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+eax            0x10	16
+ecx            0x2c405b8	46400952
+edx            0xa	10
+ebx            0x10	16
+esp            0x61fddc	0x61fddc
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x402219	0x402219 <__chkstk_ms+41>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+main () at ordinaArray.s:164
+164		subl	%eax, %esp
+eax            0x10	16
+ecx            0x2c405b8	46400952
+edx            0xa	10
+ebx            0x10	16
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4015d3	0x4015d3 <main+190>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+165		leal	12(%esp), %eax
+eax            0x10	16
+ecx            0x2c405b8	46400952
+edx            0xa	10
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4015d5	0x4015d5 <main+192>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+166		addl	$3, %eax
+eax            0x61fddc	6421980
+ecx            0x2c405b8	46400952
+edx            0xa	10
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4015d9	0x4015d9 <main+196>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+167		shrl	$2, %eax
+eax            0x61fddf	6421983
+ecx            0x2c405b8	46400952
+edx            0xa	10
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4015dc	0x4015dc <main+199>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+168		sall	$2, %eax
+eax            0x187f77	1605495
+ecx            0x2c405b8	46400952
+edx            0xa	10
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4015df	0x4015df <main+202>
+eflags         0x207	[ CF PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+169		movl	%eax, -48(%ebp)
+eax            0x61fddc	6421980
+ecx            0x2c405b8	46400952
+edx            0xa	10
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4015e2	0x4015e2 <main+205>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+170		movl	-36(%ebp), %eax
+eax            0x61fddc	6421980
+ecx            0x2c405b8	46400952
+edx            0xa	10
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4015e5	0x4015e5 <main+208>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+171		movl	%eax, 8(%esp)
+eax            0x76952660	1989486176
+ecx            0x2c405b8	46400952
+edx            0xa	10
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4015e8	0x4015e8 <main+211>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+172		movl	$255, 4(%esp)
+eax            0x76952660	1989486176
+ecx            0x2c405b8	46400952
+edx            0xa	10
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4015ec	0x4015ec <main+215>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+173		leal	-303(%ebp), %eax
+eax            0x76952660	1989486176
+ecx            0x2c405b8	46400952
+edx            0xa	10
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4015f4	0x4015f4 <main+223>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+174		movl	%eax, (%esp)
+eax            0x61fdf9	6422009
+ecx            0x2c405b8	46400952
+edx            0xa	10
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4015fa	0x4015fa <main+229>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+175		call	_fgets
+eax            0x61fdf9	6422009
+ecx            0x2c405b8	46400952
+edx            0xa	10
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4015fd	0x4015fd <main+232>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+176		movl	$0, -28(%ebp)
+eax            0x61fdf9	6422009
+ecx            0x76917d37	1989246263
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401602	0x401602 <main+237>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+177		jmp	L11
+eax            0x61fdf9	6422009
+ecx            0x76917d37	1989246263
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401609	0x401609 <main+244>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+188		movl	-36(%ebp), %eax
+eax            0x61fdf9	6422009
+ecx            0x76917d37	1989246263
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401628	0x401628 <main+275>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+189		movl	%eax, 8(%esp)
+eax            0x76952660	1989486176
+ecx            0x76917d37	1989246263
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40162b	0x40162b <main+278>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+190		movl	$255, 4(%esp)
+eax            0x76952660	1989486176
+ecx            0x76917d37	1989246263
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40162f	0x40162f <main+282>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+191		leal	-303(%ebp), %eax
+eax            0x76952660	1989486176
+ecx            0x76917d37	1989246263
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401637	0x401637 <main+290>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+192		movl	%eax, (%esp)
+eax            0x61fdf9	6422009
+ecx            0x76917d37	1989246263
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40163d	0x40163d <main+296>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+193		call	_fgets
+eax            0x61fdf9	6422009
+ecx            0x76917d37	1989246263
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401640	0x401640 <main+299>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+194		testl	%eax, %eax
+eax            0x61fdf9	6422009
+ecx            0x76917d37	1989246263
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401645	0x401645 <main+304>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+195		jne	L12
+eax            0x61fdf9	6422009
+ecx            0x76917d37	1989246263
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401647	0x401647 <main+306>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+179		leal	-303(%ebp), %eax
+eax            0x61fdf9	6422009
+ecx            0x76917d37	1989246263
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40160b	0x40160b <main+246>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+180		movl	%eax, (%esp)
+eax            0x61fdf9	6422009
+ecx            0x76917d37	1989246263
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401611	0x401611 <main+252>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+181		call	_atoi
+eax            0x61fdf9	6422009
+ecx            0x76917d37	1989246263
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401614	0x401614 <main+255>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+182		movl	%eax, %ecx
+eax            0x0	0
+ecx            0x2c405b8	46400952
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401619	0x401619 <main+260>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+183		movl	-48(%ebp), %eax
+eax            0x0	0
+ecx            0x0	0
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40161b	0x40161b <main+262>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+184		movl	-28(%ebp), %edx
+eax            0x61fddc	6421980
+ecx            0x0	0
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40161e	0x40161e <main+265>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+185		movl	%ecx, (%eax,%edx,4)
+eax            0x61fddc	6421980
+ecx            0x0	0
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401621	0x401621 <main+268>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+186		addl	$1, -28(%ebp)
+eax            0x61fddc	6421980
+ecx            0x0	0
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401624	0x401624 <main+271>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+188		movl	-36(%ebp), %eax
+eax            0x61fddc	6421980
+ecx            0x0	0
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401628	0x401628 <main+275>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+189		movl	%eax, 8(%esp)
+eax            0x76952660	1989486176
+ecx            0x0	0
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40162b	0x40162b <main+278>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+190		movl	$255, 4(%esp)
+eax            0x76952660	1989486176
+ecx            0x0	0
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40162f	0x40162f <main+282>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+191		leal	-303(%ebp), %eax
+eax            0x76952660	1989486176
+ecx            0x0	0
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401637	0x401637 <main+290>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+192		movl	%eax, (%esp)
+eax            0x61fdf9	6422009
+ecx            0x0	0
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40163d	0x40163d <main+296>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+193		call	_fgets
+eax            0x61fdf9	6422009
+ecx            0x0	0
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401640	0x401640 <main+299>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+194		testl	%eax, %eax
+eax            0x61fdf9	6422009
+ecx            0x76917d37	1989246263
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401645	0x401645 <main+304>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+195		jne	L12
+eax            0x61fdf9	6422009
+ecx            0x76917d37	1989246263
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401647	0x401647 <main+306>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+179		leal	-303(%ebp), %eax
+eax            0x61fdf9	6422009
+ecx            0x76917d37	1989246263
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40160b	0x40160b <main+246>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+180		movl	%eax, (%esp)
+eax            0x61fdf9	6422009
+ecx            0x76917d37	1989246263
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401611	0x401611 <main+252>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+181		call	_atoi
+eax            0x61fdf9	6422009
+ecx            0x76917d37	1989246263
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401614	0x401614 <main+255>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+182		movl	%eax, %ecx
+eax            0x0	0
+ecx            0x2c405b8	46400952
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401619	0x401619 <main+260>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+183		movl	-48(%ebp), %eax
+eax            0x0	0
+ecx            0x0	0
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40161b	0x40161b <main+262>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+184		movl	-28(%ebp), %edx
+eax            0x61fddc	6421980
+ecx            0x0	0
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40161e	0x40161e <main+265>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+185		movl	%ecx, (%eax,%edx,4)
+eax            0x61fddc	6421980
+ecx            0x0	0
+edx            0x1	1
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401621	0x401621 <main+268>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+186		addl	$1, -28(%ebp)
+eax            0x61fddc	6421980
+ecx            0x0	0
+edx            0x1	1
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401624	0x401624 <main+271>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+188		movl	-36(%ebp), %eax
+eax            0x61fddc	6421980
+ecx            0x0	0
+edx            0x1	1
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401628	0x401628 <main+275>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+189		movl	%eax, 8(%esp)
+eax            0x76952660	1989486176
+ecx            0x0	0
+edx            0x1	1
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40162b	0x40162b <main+278>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+190		movl	$255, 4(%esp)
+eax            0x76952660	1989486176
+ecx            0x0	0
+edx            0x1	1
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40162f	0x40162f <main+282>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+191		leal	-303(%ebp), %eax
+eax            0x76952660	1989486176
+ecx            0x0	0
+edx            0x1	1
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401637	0x401637 <main+290>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+192		movl	%eax, (%esp)
+eax            0x61fdf9	6422009
+ecx            0x0	0
+edx            0x1	1
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40163d	0x40163d <main+296>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+193		call	_fgets
+eax            0x61fdf9	6422009
+ecx            0x0	0
+edx            0x1	1
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401640	0x401640 <main+299>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+194		testl	%eax, %eax
+eax            0x61fdf9	6422009
+ecx            0x76917d37	1989246263
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401645	0x401645 <main+304>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+195		jne	L12
+eax            0x61fdf9	6422009
+ecx            0x76917d37	1989246263
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401647	0x401647 <main+306>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+179		leal	-303(%ebp), %eax
+eax            0x61fdf9	6422009
+ecx            0x76917d37	1989246263
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40160b	0x40160b <main+246>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+180		movl	%eax, (%esp)
+eax            0x61fdf9	6422009
+ecx            0x76917d37	1989246263
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401611	0x401611 <main+252>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+181		call	_atoi
+eax            0x61fdf9	6422009
+ecx            0x76917d37	1989246263
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401614	0x401614 <main+255>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+182		movl	%eax, %ecx
+eax            0x2	2
+ecx            0x2c405b8	46400952
+edx            0x8	8
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401619	0x401619 <main+260>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+183		movl	-48(%ebp), %eax
+eax            0x2	2
+ecx            0x2	2
+edx            0x8	8
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40161b	0x40161b <main+262>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+184		movl	-28(%ebp), %edx
+eax            0x61fddc	6421980
+ecx            0x2	2
+edx            0x8	8
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40161e	0x40161e <main+265>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+185		movl	%ecx, (%eax,%edx,4)
+eax            0x61fddc	6421980
+ecx            0x2	2
+edx            0x2	2
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401621	0x401621 <main+268>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+186		addl	$1, -28(%ebp)
+eax            0x61fddc	6421980
+ecx            0x2	2
+edx            0x2	2
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401624	0x401624 <main+271>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+188		movl	-36(%ebp), %eax
+eax            0x61fddc	6421980
+ecx            0x2	2
+edx            0x2	2
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401628	0x401628 <main+275>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+189		movl	%eax, 8(%esp)
+eax            0x76952660	1989486176
+ecx            0x2	2
+edx            0x2	2
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40162b	0x40162b <main+278>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+190		movl	$255, 4(%esp)
+eax            0x76952660	1989486176
+ecx            0x2	2
+edx            0x2	2
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40162f	0x40162f <main+282>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+191		leal	-303(%ebp), %eax
+eax            0x76952660	1989486176
+ecx            0x2	2
+edx            0x2	2
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401637	0x401637 <main+290>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+192		movl	%eax, (%esp)
+eax            0x61fdf9	6422009
+ecx            0x2	2
+edx            0x2	2
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40163d	0x40163d <main+296>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+193		call	_fgets
+eax            0x61fdf9	6422009
+ecx            0x2	2
+edx            0x2	2
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401640	0x401640 <main+299>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+194		testl	%eax, %eax
+eax            0x61fdf9	6422009
+ecx            0x76917d37	1989246263
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401645	0x401645 <main+304>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+195		jne	L12
+eax            0x61fdf9	6422009
+ecx            0x76917d37	1989246263
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401647	0x401647 <main+306>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+179		leal	-303(%ebp), %eax
+eax            0x61fdf9	6422009
+ecx            0x76917d37	1989246263
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40160b	0x40160b <main+246>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+180		movl	%eax, (%esp)
+eax            0x61fdf9	6422009
+ecx            0x76917d37	1989246263
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401611	0x401611 <main+252>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+181		call	_atoi
+eax            0x61fdf9	6422009
+ecx            0x76917d37	1989246263
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401614	0x401614 <main+255>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+182		movl	%eax, %ecx
+eax            0x0	0
+ecx            0x2c405b8	46400952
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401619	0x401619 <main+260>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+183		movl	-48(%ebp), %eax
+eax            0x0	0
+ecx            0x0	0
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40161b	0x40161b <main+262>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+184		movl	-28(%ebp), %edx
+eax            0x61fddc	6421980
+ecx            0x0	0
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40161e	0x40161e <main+265>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+185		movl	%ecx, (%eax,%edx,4)
+eax            0x61fddc	6421980
+ecx            0x0	0
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401621	0x401621 <main+268>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+186		addl	$1, -28(%ebp)
+eax            0x61fddc	6421980
+ecx            0x0	0
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401624	0x401624 <main+271>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+188		movl	-36(%ebp), %eax
+eax            0x61fddc	6421980
+ecx            0x0	0
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401628	0x401628 <main+275>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+189		movl	%eax, 8(%esp)
+eax            0x76952660	1989486176
+ecx            0x0	0
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40162b	0x40162b <main+278>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+190		movl	$255, 4(%esp)
+eax            0x76952660	1989486176
+ecx            0x0	0
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40162f	0x40162f <main+282>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+191		leal	-303(%ebp), %eax
+eax            0x76952660	1989486176
+ecx            0x0	0
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401637	0x401637 <main+290>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+192		movl	%eax, (%esp)
+eax            0x61fdf9	6422009
+ecx            0x0	0
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40163d	0x40163d <main+296>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+193		call	_fgets
+eax            0x61fdf9	6422009
+ecx            0x0	0
+edx            0x3	3
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401640	0x401640 <main+299>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+194		testl	%eax, %eax
+eax            0x61fdf9	6422009
+ecx            0x76917d37	1989246263
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401645	0x401645 <main+304>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+195		jne	L12
+eax            0x61fdf9	6422009
+ecx            0x76917d37	1989246263
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401647	0x401647 <main+306>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+179		leal	-303(%ebp), %eax
+eax            0x61fdf9	6422009
+ecx            0x76917d37	1989246263
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40160b	0x40160b <main+246>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+180		movl	%eax, (%esp)
+eax            0x61fdf9	6422009
+ecx            0x76917d37	1989246263
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401611	0x401611 <main+252>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+181		call	_atoi
+eax            0x61fdf9	6422009
+ecx            0x76917d37	1989246263
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401614	0x401614 <main+255>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+182		movl	%eax, %ecx
+eax            0x3	3
+ecx            0x2c405b8	46400952
+edx            0x8	8
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401619	0x401619 <main+260>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+183		movl	-48(%ebp), %eax
+eax            0x3	3
+ecx            0x3	3
+edx            0x8	8
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40161b	0x40161b <main+262>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+184		movl	-28(%ebp), %edx
+eax            0x61fddc	6421980
+ecx            0x3	3
+edx            0x8	8
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40161e	0x40161e <main+265>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+185		movl	%ecx, (%eax,%edx,4)
+eax            0x61fddc	6421980
+ecx            0x3	3
+edx            0x4	4
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401621	0x401621 <main+268>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+186		addl	$1, -28(%ebp)
+eax            0x61fddc	6421980
+ecx            0x3	3
+edx            0x4	4
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401624	0x401624 <main+271>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+188		movl	-36(%ebp), %eax
+eax            0x61fddc	6421980
+ecx            0x3	3
+edx            0x4	4
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401628	0x401628 <main+275>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+189		movl	%eax, 8(%esp)
+eax            0x76952660	1989486176
+ecx            0x3	3
+edx            0x4	4
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40162b	0x40162b <main+278>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+190		movl	$255, 4(%esp)
+eax            0x76952660	1989486176
+ecx            0x3	3
+edx            0x4	4
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40162f	0x40162f <main+282>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+191		leal	-303(%ebp), %eax
+eax            0x76952660	1989486176
+ecx            0x3	3
+edx            0x4	4
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401637	0x401637 <main+290>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+192		movl	%eax, (%esp)
+eax            0x61fdf9	6422009
+ecx            0x3	3
+edx            0x4	4
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40163d	0x40163d <main+296>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+193		call	_fgets
+eax            0x61fdf9	6422009
+ecx            0x3	3
+edx            0x4	4
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401640	0x401640 <main+299>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+194		testl	%eax, %eax
+eax            0x0	0
+ecx            0x76917d37	1989246263
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401645	0x401645 <main+304>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+195		jne	L12
+eax            0x0	0
+ecx            0x76917d37	1989246263
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401647	0x401647 <main+306>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+196		movl	-48(%ebp), %eax
+eax            0x0	0
+ecx            0x76917d37	1989246263
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401649	0x401649 <main+308>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+197		movl	-40(%ebp), %edx
+eax            0x61fddc	6421980
+ecx            0x76917d37	1989246263
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40164c	0x40164c <main+311>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+198		movl	%edx, 4(%esp)
+eax            0x61fddc	6421980
+ecx            0x76917d37	1989246263
+edx            0x2	2
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40164f	0x40164f <main+314>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+199		movl	%eax, (%esp)
+eax            0x61fddc	6421980
+ecx            0x76917d37	1989246263
+edx            0x2	2
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401653	0x401653 <main+318>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+200		call	_bubbleSort
+eax            0x61fddc	6421980
+ecx            0x76917d37	1989246263
+edx            0x2	2
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401656	0x401656 <main+321>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+bubbleSort () at ordinaArray.s:36
+36		pushl	%ebp
+eax            0x61fddc	6421980
+ecx            0x76917d37	1989246263
+edx            0x2	2
+ebx            0x10	16
+esp            0x61fdcc	0x61fdcc
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401483	0x401483 <bubbleSort>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+39		movl	%esp, %ebp
+eax            0x61fddc	6421980
+ecx            0x76917d37	1989246263
+edx            0x2	2
+ebx            0x10	16
+esp            0x61fdc8	0x61fdc8
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401484	0x401484 <bubbleSort+1>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+41		subl	$24, %esp
+eax            0x61fddc	6421980
+ecx            0x76917d37	1989246263
+edx            0x2	2
+ebx            0x10	16
+esp            0x61fdc8	0x61fdc8
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401486	0x401486 <bubbleSort+3>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+42		movl	$0, -4(%ebp)
+eax            0x61fddc	6421980
+ecx            0x76917d37	1989246263
+edx            0x2	2
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401489	0x401489 <bubbleSort+6>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+43		jmp	L3
+eax            0x61fddc	6421980
+ecx            0x76917d37	1989246263
+edx            0x2	2
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401490	0x401490 <bubbleSort+13>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+83		movl	12(%ebp), %eax
+eax            0x61fddc	6421980
+ecx            0x76917d37	1989246263
+edx            0x2	2
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401507	0x401507 <bubbleSort+132>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+84		subl	$1, %eax
+eax            0x2	2
+ecx            0x76917d37	1989246263
+edx            0x2	2
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40150a	0x40150a <bubbleSort+135>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+85		cmpl	-4(%ebp), %eax
+eax            0x1	1
+ecx            0x76917d37	1989246263
+edx            0x2	2
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40150d	0x40150d <bubbleSort+138>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+86		jg	L7
+eax            0x1	1
+ecx            0x76917d37	1989246263
+edx            0x2	2
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401510	0x401510 <bubbleSort+141>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+45		movl	$0, -8(%ebp)
+eax            0x1	1
+ecx            0x76917d37	1989246263
+edx            0x2	2
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401492	0x401492 <bubbleSort+15>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+46		jmp	L4
+eax            0x1	1
+ecx            0x76917d37	1989246263
+edx            0x2	2
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401499	0x401499 <bubbleSort+22>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+76		movl	12(%ebp), %eax
+eax            0x1	1
+ecx            0x76917d37	1989246263
+edx            0x2	2
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4014f5	0x4014f5 <bubbleSort+114>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+77		subl	-4(%ebp), %eax
+eax            0x2	2
+ecx            0x76917d37	1989246263
+edx            0x2	2
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4014f8	0x4014f8 <bubbleSort+117>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+78		subl	$1, %eax
+eax            0x2	2
+ecx            0x76917d37	1989246263
+edx            0x2	2
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4014fb	0x4014fb <bubbleSort+120>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+79		cmpl	-8(%ebp), %eax
+eax            0x1	1
+ecx            0x76917d37	1989246263
+edx            0x2	2
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4014fe	0x4014fe <bubbleSort+123>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+80		jg	L6
+eax            0x1	1
+ecx            0x76917d37	1989246263
+edx            0x2	2
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401501	0x401501 <bubbleSort+126>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+48		movl	-8(%ebp), %eax
+eax            0x1	1
+ecx            0x76917d37	1989246263
+edx            0x2	2
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40149b	0x40149b <bubbleSort+24>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+49		leal	0(,%eax,4), %edx
+eax            0x0	0
+ecx            0x76917d37	1989246263
+edx            0x2	2
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40149e	0x40149e <bubbleSort+27>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+50		movl	8(%ebp), %eax
+eax            0x0	0
+ecx            0x76917d37	1989246263
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4014a5	0x4014a5 <bubbleSort+34>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+51		addl	%edx, %eax
+eax            0x61fddc	6421980
+ecx            0x76917d37	1989246263
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4014a8	0x4014a8 <bubbleSort+37>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+52		movl	(%eax), %edx
+eax            0x61fddc	6421980
+ecx            0x76917d37	1989246263
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4014aa	0x4014aa <bubbleSort+39>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+53		movl	-8(%ebp), %eax
+eax            0x61fddc	6421980
+ecx            0x76917d37	1989246263
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4014ac	0x4014ac <bubbleSort+41>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+54		addl	$1, %eax
+eax            0x0	0
+ecx            0x76917d37	1989246263
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4014af	0x4014af <bubbleSort+44>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+55		leal	0(,%eax,4), %ecx
+eax            0x1	1
+ecx            0x76917d37	1989246263
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4014b2	0x4014b2 <bubbleSort+47>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+56		movl	8(%ebp), %eax
+eax            0x1	1
+ecx            0x4	4
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4014b9	0x4014b9 <bubbleSort+54>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+57		addl	%ecx, %eax
+eax            0x61fddc	6421980
+ecx            0x4	4
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4014bc	0x4014bc <bubbleSort+57>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+58		movl	(%eax), %eax
+eax            0x61fde0	6421984
+ecx            0x4	4
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4014be	0x4014be <bubbleSort+59>
+eflags         0x212	[ AF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+59		cmpl	%eax, %edx
+eax            0x0	0
+ecx            0x4	4
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4014c0	0x4014c0 <bubbleSort+61>
+eflags         0x212	[ AF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+60		jle	L5
+eax            0x0	0
+ecx            0x4	4
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4014c2	0x4014c2 <bubbleSort+63>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+74		addl	$1, -8(%ebp)
+eax            0x0	0
+ecx            0x4	4
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4014f1	0x4014f1 <bubbleSort+110>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+76		movl	12(%ebp), %eax
+eax            0x0	0
+ecx            0x4	4
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4014f5	0x4014f5 <bubbleSort+114>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+77		subl	-4(%ebp), %eax
+eax            0x2	2
+ecx            0x4	4
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4014f8	0x4014f8 <bubbleSort+117>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+78		subl	$1, %eax
+eax            0x2	2
+ecx            0x4	4
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4014fb	0x4014fb <bubbleSort+120>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+79		cmpl	-8(%ebp), %eax
+eax            0x1	1
+ecx            0x4	4
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x4014fe	0x4014fe <bubbleSort+123>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+80		jg	L6
+eax            0x1	1
+ecx            0x4	4
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401501	0x401501 <bubbleSort+126>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+81		addl	$1, -4(%ebp)
+eax            0x1	1
+ecx            0x4	4
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401503	0x401503 <bubbleSort+128>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+83		movl	12(%ebp), %eax
+eax            0x1	1
+ecx            0x4	4
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401507	0x401507 <bubbleSort+132>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+84		subl	$1, %eax
+eax            0x2	2
+ecx            0x4	4
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40150a	0x40150a <bubbleSort+135>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+85		cmpl	-4(%ebp), %eax
+eax            0x1	1
+ecx            0x4	4
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40150d	0x40150d <bubbleSort+138>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+86		jg	L7
+eax            0x1	1
+ecx            0x4	4
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401510	0x401510 <bubbleSort+141>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+87		nop
+eax            0x1	1
+ecx            0x4	4
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401512	0x401512 <bubbleSort+143>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+88		leave
+eax            0x1	1
+ecx            0x4	4
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdb0	0x61fdb0
+ebp            0x61fdc8	0x61fdc8
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401513	0x401513 <bubbleSort+144>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+91		ret
+eax            0x1	1
+ecx            0x4	4
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdcc	0x61fdcc
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401514	0x401514 <bubbleSort+145>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+main () at ordinaArray.s:201
+201		movl	$0, %eax
+eax            0x1	1
+ecx            0x4	4
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x40165b	0x40165b <main+326>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+203		movl	%esi, %esp
+eax            0x0	0
+ecx            0x4	4
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fdd0	0x61fdd0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401660	0x401660 <main+331>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+204		leal	-12(%ebp), %esp
+eax            0x0	0
+ecx            0x4	4
+edx            0x0	0
+ebx            0x10	16
+esp            0x61fde0	0x61fde0
+ebp            0x61ff28	0x61ff28
+esi            0x61fde0	6421984
+edi            0x4012e0	4199136
+eip            0x401662	0x401662 <main+333>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+
+0x00401288 in __register_frame_info ()
+eax            0x0	0
+ecx            0x61ff40	6422336
+edx            0x0	0
+ebx            0x271000	2560000
+esp            0x61ff40	0x61ff40
+ebp            0x61ff60	0x61ff60
+esi            0x4012e0	4199136
+edi            0x4012e0	4199136
+eip            0x401288	0x401288 <__register_frame_info+4199048>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
+
+

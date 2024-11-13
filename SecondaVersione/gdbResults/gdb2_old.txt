@@ -1,0 +1,3303 @@
+
+134		push	{r4, r5, r6, r7, r8, fp, lr}
+r0             0x2	2
+r1             0xbeffefe4	3204444132
+r2             0xbeffeff0	3204444144
+r3             0x105fc	67068
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0x0	0
+r12            0xbeffef10	3204443920
+sp             0xbeffee90	0xbeffee90
+lr             0xb6e7b678	-1226328456
+pc             0x105fc	0x105fc <main>
+cpsr           0x60000010	1610612752
+
+
+135		add	fp, sp, #24
+r0             0x2	2
+r1             0xbeffefe4	3204444132
+r2             0xbeffeff0	3204444144
+r3             0x105fc	67068
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0x0	0
+r12            0xbeffef10	3204443920
+sp             0xbeffee74	0xbeffee74
+lr             0xb6e7b678	-1226328456
+pc             0x10600	0x10600 <main+4>
+cpsr           0x60000010	1610612752
+
+
+136		sub	sp, sp, #292
+r0             0x2	2
+r1             0xbeffefe4	3204444132
+r2             0xbeffeff0	3204444144
+r3             0x105fc	67068
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffef10	3204443920
+sp             0xbeffee74	0xbeffee74
+lr             0xb6e7b678	-1226328456
+pc             0x10604	0x10604 <main+8>
+cpsr           0x60000010	1610612752
+
+
+137		str	r0, [fp, #-312]
+r0             0x2	2
+r1             0xbeffefe4	3204444132
+r2             0xbeffeff0	3204444144
+r3             0x105fc	67068
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffef10	3204443920
+sp             0xbeffed50	0xbeffed50
+lr             0xb6e7b678	-1226328456
+pc             0x10608	0x10608 <main+12>
+cpsr           0x60000010	1610612752
+
+
+138		str	r1, [fp, #-316]
+r0             0x2	2
+r1             0xbeffefe4	3204444132
+r2             0xbeffeff0	3204444144
+r3             0x105fc	67068
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffef10	3204443920
+sp             0xbeffed50	0xbeffed50
+lr             0xb6e7b678	-1226328456
+pc             0x1060c	0x1060c <main+16>
+cpsr           0x60000010	1610612752
+
+
+139		mov	r3, sp
+r0             0x2	2
+r1             0xbeffefe4	3204444132
+r2             0xbeffeff0	3204444144
+r3             0x105fc	67068
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffef10	3204443920
+sp             0xbeffed50	0xbeffed50
+lr             0xb6e7b678	-1226328456
+pc             0x10610	0x10610 <main+20>
+cpsr           0x60000010	1610612752
+
+
+140		mov	r8, r3
+r0             0x2	2
+r1             0xbeffefe4	3204444132
+r2             0xbeffeff0	3204444144
+r3             0xbeffed50	3204443472
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffef10	3204443920
+sp             0xbeffed50	0xbeffed50
+lr             0xb6e7b678	-1226328456
+pc             0x10614	0x10614 <main+24>
+cpsr           0x60000010	1610612752
+
+
+141		ldr	r3, [fp, #-316]
+r0             0x2	2
+r1             0xbeffefe4	3204444132
+r2             0xbeffeff0	3204444144
+r3             0xbeffed50	3204443472
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffef10	3204443920
+sp             0xbeffed50	0xbeffed50
+lr             0xb6e7b678	-1226328456
+pc             0x10618	0x10618 <main+28>
+cpsr           0x60000010	1610612752
+
+
+142		ldr	r3, [r3, #4]
+r0             0x2	2
+r1             0xbeffefe4	3204444132
+r2             0xbeffeff0	3204444144
+r3             0xbeffefe4	3204444132
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffef10	3204443920
+sp             0xbeffed50	0xbeffed50
+lr             0xb6e7b678	-1226328456
+pc             0x1061c	0x1061c <main+32>
+cpsr           0x60000010	1610612752
+
+
+143		str	r3, [fp, #-36]
+r0             0x2	2
+r1             0xbeffefe4	3204444132
+r2             0xbeffeff0	3204444144
+r3             0xbefff1c0	3204444608
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffef10	3204443920
+sp             0xbeffed50	0xbeffed50
+lr             0xb6e7b678	-1226328456
+pc             0x10620	0x10620 <main+36>
+cpsr           0x60000010	1610612752
+
+
+144		ldr	r1, .L14
+r0             0x2	2
+r1             0xbeffefe4	3204444132
+r2             0xbeffeff0	3204444144
+r3             0xbefff1c0	3204444608
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffef10	3204443920
+sp             0xbeffed50	0xbeffed50
+lr             0xb6e7b678	-1226328456
+pc             0x10624	0x10624 <main+40>
+cpsr           0x60000010	1610612752
+
+
+145		ldr	r0, [fp, #-36]
+r0             0x2	2
+r1             0x107e8	67560
+r2             0xbeffeff0	3204444144
+r3             0xbefff1c0	3204444608
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffef10	3204443920
+sp             0xbeffed50	0xbeffed50
+lr             0xb6e7b678	-1226328456
+pc             0x10628	0x10628 <main+44>
+cpsr           0x60000010	1610612752
+
+
+146		bl	fopen
+r0             0xbefff1c0	3204444608
+r1             0x107e8	67560
+r2             0xbeffeff0	3204444144
+r3             0xbefff1c0	3204444608
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffef10	3204443920
+sp             0xbeffed50	0xbeffed50
+lr             0xb6e7b678	-1226328456
+pc             0x1062c	0x1062c <main+48>
+cpsr           0x60000010	1610612752
+
+
+147		str	r0, [fp, #-40]
+r0             0x22008	139272
+r1             0xb6f83d40	3069721920
+r2             0x0	0
+r3             0x0	0
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0x0	0
+sp             0xbeffed50	0xbeffed50
+lr             0x10630	67120
+pc             0x10630	0x10630 <main+52>
+cpsr           0x60000010	1610612752
+
+
+148		ldr	r3, [fp, #-40]
+r0             0x22008	139272
+r1             0xb6f83d40	3069721920
+r2             0x0	0
+r3             0x0	0
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0x0	0
+sp             0xbeffed50	0xbeffed50
+lr             0x10630	67120
+pc             0x10634	0x10634 <main+56>
+cpsr           0x60000010	1610612752
+
+
+149		cmp	r3, #0
+r0             0x22008	139272
+r1             0xb6f83d40	3069721920
+r2             0x0	0
+r3             0x22008	139272
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0x0	0
+sp             0xbeffed50	0xbeffed50
+lr             0x10630	67120
+pc             0x10638	0x10638 <main+60>
+cpsr           0x60000010	1610612752
+
+
+150		bne	.L9
+r0             0x22008	139272
+r1             0xb6f83d40	3069721920
+r2             0x0	0
+r3             0x22008	139272
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0x0	0
+sp             0xbeffed50	0xbeffed50
+lr             0x10630	67120
+pc             0x1063c	0x1063c <main+64>
+cpsr           0x20000010	536870928
+
+
+157		sub	r3, fp, #308
+r0             0x22008	139272
+r1             0xb6f83d40	3069721920
+r2             0x0	0
+r3             0x22008	139272
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0x0	0
+sp             0xbeffed50	0xbeffed50
+lr             0x10630	67120
+pc             0x10654	0x10654 <main+88>
+cpsr           0x20000010	536870928
+
+
+158		ldr	r2, [fp, #-40]
+r0             0x22008	139272
+r1             0xb6f83d40	3069721920
+r2             0x0	0
+r3             0xbeffed58	3204443480
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0x0	0
+sp             0xbeffed50	0xbeffed50
+lr             0x10630	67120
+pc             0x10658	0x10658 <main+92>
+cpsr           0x20000010	536870928
+
+
+159		mov	r1, #255
+r0             0x22008	139272
+r1             0xb6f83d40	3069721920
+r2             0x22008	139272
+r3             0xbeffed58	3204443480
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0x0	0
+sp             0xbeffed50	0xbeffed50
+lr             0x10630	67120
+pc             0x1065c	0x1065c <main+96>
+cpsr           0x20000010	536870928
+
+
+160		mov	r0, r3
+r0             0x22008	139272
+r1             0xff	255
+r2             0x22008	139272
+r3             0xbeffed58	3204443480
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0x0	0
+sp             0xbeffed50	0xbeffed50
+lr             0x10630	67120
+pc             0x10660	0x10660 <main+100>
+cpsr           0x20000010	536870928
+
+
+161		bl	fgets
+r0             0xbeffed58	3204443480
+r1             0xff	255
+r2             0x22008	139272
+r3             0xbeffed58	3204443480
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0x0	0
+sp             0xbeffed50	0xbeffed50
+lr             0x10630	67120
+pc             0x10664	0x10664 <main+104>
+cpsr           0x20000010	536870928
+
+
+162		sub	r3, fp, #308
+r0             0xbeffed58	3204443480
+r1             0x0	0
+r2             0x1	1
+r3             0x0	0
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed58	3204443480
+sp             0xbeffed50	0xbeffed50
+lr             0xb6ec1a48	-1226040760
+pc             0x10668	0x10668 <main+108>
+cpsr           0x60000010	1610612752
+
+
+163		mov	r0, r3
+r0             0xbeffed58	3204443480
+r1             0x0	0
+r2             0x1	1
+r3             0xbeffed58	3204443480
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed58	3204443480
+sp             0xbeffed50	0xbeffed50
+lr             0xb6ec1a48	-1226040760
+pc             0x1066c	0x1066c <main+112>
+cpsr           0x60000010	1610612752
+
+
+164		bl	atoi
+r0             0xbeffed58	3204443480
+r1             0x0	0
+r2             0x1	1
+r3             0xbeffed58	3204443480
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed58	3204443480
+sp             0xbeffed50	0xbeffed50
+lr             0xb6ec1a48	-1226040760
+pc             0x10670	0x10670 <main+116>
+cpsr           0x60000010	1610612752
+
+
+165		str	r0, [fp, #-44]
+r0             0x2	2
+r1             0x2002	8194
+r2             0xa	10
+r3             0x2	2
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed50	0xbeffed50
+lr             0xb6f72a80	-1225315712
+pc             0x10674	0x10674 <main+120>
+cpsr           0x20000010	536870928
+
+
+166		ldr	r1, [fp, #-44]
+r0             0x2	2
+r1             0x2002	8194
+r2             0xa	10
+r3             0x2	2
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed50	0xbeffed50
+lr             0xb6f72a80	-1225315712
+pc             0x10678	0x10678 <main+124>
+cpsr           0x20000010	536870928
+
+
+167		sub	r3, r1, #1
+r0             0x2	2
+r1             0x2	2
+r2             0xa	10
+r3             0x2	2
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed50	0xbeffed50
+lr             0xb6f72a80	-1225315712
+pc             0x1067c	0x1067c <main+128>
+cpsr           0x20000010	536870928
+
+
+168		str	r3, [fp, #-48]
+r0             0x2	2
+r1             0x2	2
+r2             0xa	10
+r3             0x1	1
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed50	0xbeffed50
+lr             0xb6f72a80	-1225315712
+pc             0x10680	0x10680 <main+132>
+cpsr           0x20000010	536870928
+
+
+169		mov	r3, r1
+r0             0x2	2
+r1             0x2	2
+r2             0xa	10
+r3             0x1	1
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed50	0xbeffed50
+lr             0xb6f72a80	-1225315712
+pc             0x10684	0x10684 <main+136>
+cpsr           0x20000010	536870928
+
+
+170		mov	r2, r3
+r0             0x2	2
+r1             0x2	2
+r2             0xa	10
+r3             0x2	2
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed50	0xbeffed50
+lr             0xb6f72a80	-1225315712
+pc             0x10688	0x10688 <main+140>
+cpsr           0x20000010	536870928
+
+
+171		mov	r3, #0
+r0             0x2	2
+r1             0x2	2
+r2             0x2	2
+r3             0x2	2
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed50	0xbeffed50
+lr             0xb6f72a80	-1225315712
+pc             0x1068c	0x1068c <main+144>
+cpsr           0x20000010	536870928
+
+
+172		lsl	r7, r3, #5
+r0             0x2	2
+r1             0x2	2
+r2             0x2	2
+r3             0x0	0
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed50	0xbeffed50
+lr             0xb6f72a80	-1225315712
+pc             0x10690	0x10690 <main+148>
+cpsr           0x20000010	536870928
+
+
+173		orr	r7, r7, r2, lsr #27
+r0             0x2	2
+r1             0x2	2
+r2             0x2	2
+r3             0x0	0
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed50	0xbeffed50
+lr             0xb6f72a80	-1225315712
+pc             0x10694	0x10694 <main+152>
+cpsr           0x20000010	536870928
+
+
+174		lsl	r6, r2, #5
+r0             0x2	2
+r1             0x2	2
+r2             0x2	2
+r3             0x0	0
+r4             0x10778	67448
+r5             0x0	0
+r6             0x103a8	66472
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed50	0xbeffed50
+lr             0xb6f72a80	-1225315712
+pc             0x10698	0x10698 <main+156>
+cpsr           0x20000010	536870928
+
+
+175		mov	r3, r1
+r0             0x2	2
+r1             0x2	2
+r2             0x2	2
+r3             0x0	0
+r4             0x10778	67448
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed50	0xbeffed50
+lr             0xb6f72a80	-1225315712
+pc             0x1069c	0x1069c <main+160>
+cpsr           0x20000010	536870928
+
+
+176		mov	r2, r3
+r0             0x2	2
+r1             0x2	2
+r2             0x2	2
+r3             0x2	2
+r4             0x10778	67448
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed50	0xbeffed50
+lr             0xb6f72a80	-1225315712
+pc             0x106a0	0x106a0 <main+164>
+cpsr           0x20000010	536870928
+
+
+177		mov	r3, #0
+r0             0x2	2
+r1             0x2	2
+r2             0x2	2
+r3             0x2	2
+r4             0x10778	67448
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed50	0xbeffed50
+lr             0xb6f72a80	-1225315712
+pc             0x106a4	0x106a4 <main+168>
+cpsr           0x20000010	536870928
+
+
+178		lsl	r5, r3, #5
+r0             0x2	2
+r1             0x2	2
+r2             0x2	2
+r3             0x0	0
+r4             0x10778	67448
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed50	0xbeffed50
+lr             0xb6f72a80	-1225315712
+pc             0x106a8	0x106a8 <main+172>
+cpsr           0x20000010	536870928
+
+
+179		orr	r5, r5, r2, lsr #27
+r0             0x2	2
+r1             0x2	2
+r2             0x2	2
+r3             0x0	0
+r4             0x10778	67448
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed50	0xbeffed50
+lr             0xb6f72a80	-1225315712
+pc             0x106ac	0x106ac <main+176>
+cpsr           0x20000010	536870928
+
+
+180		lsl	r4, r2, #5
+r0             0x2	2
+r1             0x2	2
+r2             0x2	2
+r3             0x0	0
+r4             0x10778	67448
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed50	0xbeffed50
+lr             0xb6f72a80	-1225315712
+pc             0x106b0	0x106b0 <main+180>
+cpsr           0x20000010	536870928
+
+
+181		mov	r3, r1
+r0             0x2	2
+r1             0x2	2
+r2             0x2	2
+r3             0x0	0
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed50	0xbeffed50
+lr             0xb6f72a80	-1225315712
+pc             0x106b4	0x106b4 <main+184>
+cpsr           0x20000010	536870928
+
+
+182		lsl	r3, r3, #2
+r0             0x2	2
+r1             0x2	2
+r2             0x2	2
+r3             0x2	2
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed50	0xbeffed50
+lr             0xb6f72a80	-1225315712
+pc             0x106b8	0x106b8 <main+188>
+cpsr           0x20000010	536870928
+
+
+183		add	r3, r3, #3
+r0             0x2	2
+r1             0x2	2
+r2             0x2	2
+r3             0x8	8
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed50	0xbeffed50
+lr             0xb6f72a80	-1225315712
+pc             0x106bc	0x106bc <main+192>
+cpsr           0x20000010	536870928
+
+
+184		add	r3, r3, #7
+r0             0x2	2
+r1             0x2	2
+r2             0x2	2
+r3             0xb	11
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed50	0xbeffed50
+lr             0xb6f72a80	-1225315712
+pc             0x106c0	0x106c0 <main+196>
+cpsr           0x20000010	536870928
+
+
+185		lsr	r3, r3, #3
+r0             0x2	2
+r1             0x2	2
+r2             0x2	2
+r3             0x12	18
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed50	0xbeffed50
+lr             0xb6f72a80	-1225315712
+pc             0x106c4	0x106c4 <main+200>
+cpsr           0x20000010	536870928
+
+
+186		lsl	r3, r3, #3
+r0             0x2	2
+r1             0x2	2
+r2             0x2	2
+r3             0x2	2
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed50	0xbeffed50
+lr             0xb6f72a80	-1225315712
+pc             0x106c8	0x106c8 <main+204>
+cpsr           0x20000010	536870928
+
+
+187		sub	sp, sp, r3
+r0             0x2	2
+r1             0x2	2
+r2             0x2	2
+r3             0x10	16
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed50	0xbeffed50
+lr             0xb6f72a80	-1225315712
+pc             0x106cc	0x106cc <main+208>
+cpsr           0x20000010	536870928
+
+
+188		mov	r3, sp
+r0             0x2	2
+r1             0x2	2
+r2             0x2	2
+r3             0x10	16
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed40	0xbeffed40
+lr             0xb6f72a80	-1225315712
+pc             0x106d0	0x106d0 <main+212>
+cpsr           0x20000010	536870928
+
+
+189		add	r3, r3, #3
+r0             0x2	2
+r1             0x2	2
+r2             0x2	2
+r3             0xbeffed40	3204443456
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed40	0xbeffed40
+lr             0xb6f72a80	-1225315712
+pc             0x106d4	0x106d4 <main+216>
+cpsr           0x20000010	536870928
+
+
+190		lsr	r3, r3, #2
+r0             0x2	2
+r1             0x2	2
+r2             0x2	2
+r3             0xbeffed43	3204443459
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed40	0xbeffed40
+lr             0xb6f72a80	-1225315712
+pc             0x106d8	0x106d8 <main+220>
+cpsr           0x20000010	536870928
+
+
+191		lsl	r3, r3, #2
+r0             0x2	2
+r1             0x2	2
+r2             0x2	2
+r3             0x2fbffb50	801110864
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed40	0xbeffed40
+lr             0xb6f72a80	-1225315712
+pc             0x106dc	0x106dc <main+224>
+cpsr           0x20000010	536870928
+
+
+192		str	r3, [fp, #-52]
+r0             0x2	2
+r1             0x2	2
+r2             0x2	2
+r3             0xbeffed40	3204443456
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed40	0xbeffed40
+lr             0xb6f72a80	-1225315712
+pc             0x106e0	0x106e0 <main+228>
+cpsr           0x20000010	536870928
+
+
+193		sub	r3, fp, #308
+r0             0x2	2
+r1             0x2	2
+r2             0x2	2
+r3             0xbeffed40	3204443456
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed40	0xbeffed40
+lr             0xb6f72a80	-1225315712
+pc             0x106e4	0x106e4 <main+232>
+cpsr           0x20000010	536870928
+
+
+194		ldr	r2, [fp, #-40]
+r0             0x2	2
+r1             0x2	2
+r2             0x2	2
+r3             0xbeffed58	3204443480
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed40	0xbeffed40
+lr             0xb6f72a80	-1225315712
+pc             0x106e8	0x106e8 <main+236>
+cpsr           0x20000010	536870928
+
+
+195		mov	r1, #255
+r0             0x2	2
+r1             0x2	2
+r2             0x22008	139272
+r3             0xbeffed58	3204443480
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed40	0xbeffed40
+lr             0xb6f72a80	-1225315712
+pc             0x106ec	0x106ec <main+240>
+cpsr           0x20000010	536870928
+
+
+196		mov	r0, r3
+r0             0x2	2
+r1             0xff	255
+r2             0x22008	139272
+r3             0xbeffed58	3204443480
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed40	0xbeffed40
+lr             0xb6f72a80	-1225315712
+pc             0x106f0	0x106f0 <main+244>
+cpsr           0x20000010	536870928
+
+
+197		bl	fgets
+r0             0xbeffed58	3204443480
+r1             0xff	255
+r2             0x22008	139272
+r3             0xbeffed58	3204443480
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed40	0xbeffed40
+lr             0xb6f72a80	-1225315712
+pc             0x106f4	0x106f4 <main+248>
+cpsr           0x20000010	536870928
+
+
+198		mov	r3, #0
+r0             0xbeffed58	3204443480
+r1             0x0	0
+r2             0x1	1
+r3             0x0	0
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed58	3204443480
+sp             0xbeffed40	0xbeffed40
+lr             0xb6ec1a48	-1226040760
+pc             0x106f8	0x106f8 <main+252>
+cpsr           0x60000010	1610612752
+
+
+199		str	r3, [fp, #-32]
+r0             0xbeffed58	3204443480
+r1             0x0	0
+r2             0x1	1
+r3             0x0	0
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed58	3204443480
+sp             0xbeffed40	0xbeffed40
+lr             0xb6ec1a48	-1226040760
+pc             0x106fc	0x106fc <main+256>
+cpsr           0x60000010	1610612752
+
+
+200		b	.L11
+r0             0xbeffed58	3204443480
+r1             0x0	0
+r2             0x1	1
+r3             0x0	0
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed58	3204443480
+sp             0xbeffed40	0xbeffed40
+lr             0xb6ec1a48	-1226040760
+pc             0x10700	0x10700 <main+260>
+cpsr           0x60000010	1610612752
+
+
+213		sub	r3, fp, #308
+r0             0xbeffed58	3204443480
+r1             0x0	0
+r2             0x1	1
+r3             0x0	0
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed58	3204443480
+sp             0xbeffed40	0xbeffed40
+lr             0xb6ec1a48	-1226040760
+pc             0x1072c	0x1072c <main+304>
+cpsr           0x60000010	1610612752
+
+
+214		ldr	r2, [fp, #-40]
+r0             0xbeffed58	3204443480
+r1             0x0	0
+r2             0x1	1
+r3             0xbeffed58	3204443480
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed58	3204443480
+sp             0xbeffed40	0xbeffed40
+lr             0xb6ec1a48	-1226040760
+pc             0x10730	0x10730 <main+308>
+cpsr           0x60000010	1610612752
+
+
+215		mov	r1, #255
+r0             0xbeffed58	3204443480
+r1             0x0	0
+r2             0x22008	139272
+r3             0xbeffed58	3204443480
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed58	3204443480
+sp             0xbeffed40	0xbeffed40
+lr             0xb6ec1a48	-1226040760
+pc             0x10734	0x10734 <main+312>
+cpsr           0x60000010	1610612752
+
+
+216		mov	r0, r3
+r0             0xbeffed58	3204443480
+r1             0xff	255
+r2             0x22008	139272
+r3             0xbeffed58	3204443480
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed58	3204443480
+sp             0xbeffed40	0xbeffed40
+lr             0xb6ec1a48	-1226040760
+pc             0x10738	0x10738 <main+316>
+cpsr           0x60000010	1610612752
+
+
+217		bl	fgets
+r0             0xbeffed58	3204443480
+r1             0xff	255
+r2             0x22008	139272
+r3             0xbeffed58	3204443480
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed58	3204443480
+sp             0xbeffed40	0xbeffed40
+lr             0xb6ec1a48	-1226040760
+pc             0x1073c	0x1073c <main+320>
+cpsr           0x60000010	1610612752
+
+
+218		mov	r3, r0
+r0             0xbeffed58	3204443480
+r1             0x0	0
+r2             0x1	1
+r3             0x0	0
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed58	3204443480
+sp             0xbeffed40	0xbeffed40
+lr             0xb6ec1a48	-1226040760
+pc             0x10740	0x10740 <main+324>
+cpsr           0x60000010	1610612752
+
+
+219		cmp	r3, #0
+r0             0xbeffed58	3204443480
+r1             0x0	0
+r2             0x1	1
+r3             0xbeffed58	3204443480
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed58	3204443480
+sp             0xbeffed40	0xbeffed40
+lr             0xb6ec1a48	-1226040760
+pc             0x10744	0x10744 <main+328>
+cpsr           0x60000010	1610612752
+
+
+220		bne	.L12
+r0             0xbeffed58	3204443480
+r1             0x0	0
+r2             0x1	1
+r3             0xbeffed58	3204443480
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed58	3204443480
+sp             0xbeffed40	0xbeffed40
+lr             0xb6ec1a48	-1226040760
+pc             0x10748	0x10748 <main+332>
+cpsr           0xa0000010	-1610612720
+
+
+202		sub	r3, fp, #308
+r0             0xbeffed58	3204443480
+r1             0x0	0
+r2             0x1	1
+r3             0xbeffed58	3204443480
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed58	3204443480
+sp             0xbeffed40	0xbeffed40
+lr             0xb6ec1a48	-1226040760
+pc             0x10704	0x10704 <main+264>
+cpsr           0xa0000010	-1610612720
+
+
+203		mov	r0, r3
+r0             0xbeffed58	3204443480
+r1             0x0	0
+r2             0x1	1
+r3             0xbeffed58	3204443480
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed58	3204443480
+sp             0xbeffed40	0xbeffed40
+lr             0xb6ec1a48	-1226040760
+pc             0x10708	0x10708 <main+268>
+cpsr           0xa0000010	-1610612720
+
+
+204		bl	atoi
+r0             0xbeffed58	3204443480
+r1             0x0	0
+r2             0x1	1
+r3             0xbeffed58	3204443480
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed58	3204443480
+sp             0xbeffed40	0xbeffed40
+lr             0xb6ec1a48	-1226040760
+pc             0x1070c	0x1070c <main+272>
+cpsr           0xa0000010	-1610612720
+
+
+205		mov	r1, r0
+r0             0x2	2
+r1             0x2002	8194
+r2             0xa	10
+r3             0x2	2
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed40	0xbeffed40
+lr             0xb6f72a80	-1225315712
+pc             0x10710	0x10710 <main+276>
+cpsr           0x20000010	536870928
+
+
+206		ldr	r3, [fp, #-52]
+r0             0x2	2
+r1             0x2	2
+r2             0xa	10
+r3             0x2	2
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed40	0xbeffed40
+lr             0xb6f72a80	-1225315712
+pc             0x10714	0x10714 <main+280>
+cpsr           0x20000010	536870928
+
+
+207		ldr	r2, [fp, #-32]
+r0             0x2	2
+r1             0x2	2
+r2             0xa	10
+r3             0xbeffed40	3204443456
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed40	0xbeffed40
+lr             0xb6f72a80	-1225315712
+pc             0x10718	0x10718 <main+284>
+cpsr           0x20000010	536870928
+
+
+208		str	r1, [r3, r2, lsl #2]
+r0             0x2	2
+r1             0x2	2
+r2             0x0	0
+r3             0xbeffed40	3204443456
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed40	0xbeffed40
+lr             0xb6f72a80	-1225315712
+pc             0x1071c	0x1071c <main+288>
+cpsr           0x20000010	536870928
+
+
+209		ldr	r3, [fp, #-32]
+r0             0x2	2
+r1             0x2	2
+r2             0x0	0
+r3             0xbeffed40	3204443456
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed40	0xbeffed40
+lr             0xb6f72a80	-1225315712
+pc             0x10720	0x10720 <main+292>
+cpsr           0x20000010	536870928
+
+
+210		add	r3, r3, #1
+r0             0x2	2
+r1             0x2	2
+r2             0x0	0
+r3             0x0	0
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed40	0xbeffed40
+lr             0xb6f72a80	-1225315712
+pc             0x10724	0x10724 <main+296>
+cpsr           0x20000010	536870928
+
+
+211		str	r3, [fp, #-32]
+r0             0x2	2
+r1             0x2	2
+r2             0x0	0
+r3             0x1	1
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed40	0xbeffed40
+lr             0xb6f72a80	-1225315712
+pc             0x10728	0x10728 <main+300>
+cpsr           0x20000010	536870928
+
+
+213		sub	r3, fp, #308
+r0             0x2	2
+r1             0x2	2
+r2             0x0	0
+r3             0x1	1
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed40	0xbeffed40
+lr             0xb6f72a80	-1225315712
+pc             0x1072c	0x1072c <main+304>
+cpsr           0x20000010	536870928
+
+
+214		ldr	r2, [fp, #-40]
+r0             0x2	2
+r1             0x2	2
+r2             0x0	0
+r3             0xbeffed58	3204443480
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed40	0xbeffed40
+lr             0xb6f72a80	-1225315712
+pc             0x10730	0x10730 <main+308>
+cpsr           0x20000010	536870928
+
+
+215		mov	r1, #255
+r0             0x2	2
+r1             0x2	2
+r2             0x22008	139272
+r3             0xbeffed58	3204443480
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed40	0xbeffed40
+lr             0xb6f72a80	-1225315712
+pc             0x10734	0x10734 <main+312>
+cpsr           0x20000010	536870928
+
+
+216		mov	r0, r3
+r0             0x2	2
+r1             0xff	255
+r2             0x22008	139272
+r3             0xbeffed58	3204443480
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed40	0xbeffed40
+lr             0xb6f72a80	-1225315712
+pc             0x10738	0x10738 <main+316>
+cpsr           0x20000010	536870928
+
+
+217		bl	fgets
+r0             0xbeffed58	3204443480
+r1             0xff	255
+r2             0x22008	139272
+r3             0xbeffed58	3204443480
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed40	0xbeffed40
+lr             0xb6f72a80	-1225315712
+pc             0x1073c	0x1073c <main+320>
+cpsr           0x20000010	536870928
+
+
+218		mov	r3, r0
+r0             0xbeffed58	3204443480
+r1             0x0	0
+r2             0x1	1
+r3             0x0	0
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed58	3204443480
+sp             0xbeffed40	0xbeffed40
+lr             0xb6ece2c8	-1225989432
+pc             0x10740	0x10740 <main+324>
+cpsr           0x60000010	1610612752
+
+
+219		cmp	r3, #0
+r0             0xbeffed58	3204443480
+r1             0x0	0
+r2             0x1	1
+r3             0xbeffed58	3204443480
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed58	3204443480
+sp             0xbeffed40	0xbeffed40
+lr             0xb6ece2c8	-1225989432
+pc             0x10744	0x10744 <main+328>
+cpsr           0x60000010	1610612752
+
+
+220		bne	.L12
+r0             0xbeffed58	3204443480
+r1             0x0	0
+r2             0x1	1
+r3             0xbeffed58	3204443480
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed58	3204443480
+sp             0xbeffed40	0xbeffed40
+lr             0xb6ece2c8	-1225989432
+pc             0x10748	0x10748 <main+332>
+cpsr           0xa0000010	-1610612720
+
+
+202		sub	r3, fp, #308
+r0             0xbeffed58	3204443480
+r1             0x0	0
+r2             0x1	1
+r3             0xbeffed58	3204443480
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed58	3204443480
+sp             0xbeffed40	0xbeffed40
+lr             0xb6ece2c8	-1225989432
+pc             0x10704	0x10704 <main+264>
+cpsr           0xa0000010	-1610612720
+
+
+203		mov	r0, r3
+r0             0xbeffed58	3204443480
+r1             0x0	0
+r2             0x1	1
+r3             0xbeffed58	3204443480
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed58	3204443480
+sp             0xbeffed40	0xbeffed40
+lr             0xb6ece2c8	-1225989432
+pc             0x10708	0x10708 <main+268>
+cpsr           0xa0000010	-1610612720
+
+
+204		bl	atoi
+r0             0xbeffed58	3204443480
+r1             0x0	0
+r2             0x1	1
+r3             0xbeffed58	3204443480
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed58	3204443480
+sp             0xbeffed40	0xbeffed40
+lr             0xb6ece2c8	-1225989432
+pc             0x1070c	0x1070c <main+272>
+cpsr           0xa0000010	-1610612720
+
+
+205		mov	r1, r0
+r0             0x3	3
+r1             0xbeffed58	3204443480
+r2             0xa	10
+r3             0x3	3
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed40	0xbeffed40
+lr             0x0	0
+pc             0x10710	0x10710 <main+276>
+cpsr           0x20000010	536870928
+
+
+206		ldr	r3, [fp, #-52]
+r0             0x3	3
+r1             0x3	3
+r2             0xa	10
+r3             0x3	3
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed40	0xbeffed40
+lr             0x0	0
+pc             0x10714	0x10714 <main+280>
+cpsr           0x20000010	536870928
+
+
+207		ldr	r2, [fp, #-32]
+r0             0x3	3
+r1             0x3	3
+r2             0xa	10
+r3             0xbeffed40	3204443456
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed40	0xbeffed40
+lr             0x0	0
+pc             0x10718	0x10718 <main+284>
+cpsr           0x20000010	536870928
+
+
+208		str	r1, [r3, r2, lsl #2]
+r0             0x3	3
+r1             0x3	3
+r2             0x1	1
+r3             0xbeffed40	3204443456
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed40	0xbeffed40
+lr             0x0	0
+pc             0x1071c	0x1071c <main+288>
+cpsr           0x20000010	536870928
+
+
+209		ldr	r3, [fp, #-32]
+r0             0x3	3
+r1             0x3	3
+r2             0x1	1
+r3             0xbeffed40	3204443456
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed40	0xbeffed40
+lr             0x0	0
+pc             0x10720	0x10720 <main+292>
+cpsr           0x20000010	536870928
+
+
+210		add	r3, r3, #1
+r0             0x3	3
+r1             0x3	3
+r2             0x1	1
+r3             0x1	1
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed40	0xbeffed40
+lr             0x0	0
+pc             0x10724	0x10724 <main+296>
+cpsr           0x20000010	536870928
+
+
+211		str	r3, [fp, #-32]
+r0             0x3	3
+r1             0x3	3
+r2             0x1	1
+r3             0x2	2
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed40	0xbeffed40
+lr             0x0	0
+pc             0x10728	0x10728 <main+300>
+cpsr           0x20000010	536870928
+
+
+213		sub	r3, fp, #308
+r0             0x3	3
+r1             0x3	3
+r2             0x1	1
+r3             0x2	2
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed40	0xbeffed40
+lr             0x0	0
+pc             0x1072c	0x1072c <main+304>
+cpsr           0x20000010	536870928
+
+
+214		ldr	r2, [fp, #-40]
+r0             0x3	3
+r1             0x3	3
+r2             0x1	1
+r3             0xbeffed58	3204443480
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed40	0xbeffed40
+lr             0x0	0
+pc             0x10730	0x10730 <main+308>
+cpsr           0x20000010	536870928
+
+
+215		mov	r1, #255
+r0             0x3	3
+r1             0x3	3
+r2             0x22008	139272
+r3             0xbeffed58	3204443480
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed40	0xbeffed40
+lr             0x0	0
+pc             0x10734	0x10734 <main+312>
+cpsr           0x20000010	536870928
+
+
+216		mov	r0, r3
+r0             0x3	3
+r1             0xff	255
+r2             0x22008	139272
+r3             0xbeffed58	3204443480
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed40	0xbeffed40
+lr             0x0	0
+pc             0x10738	0x10738 <main+316>
+cpsr           0x20000010	536870928
+
+
+217		bl	fgets
+r0             0xbeffed58	3204443480
+r1             0xff	255
+r2             0x22008	139272
+r3             0xbeffed58	3204443480
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0xbeffed59	3204443481
+sp             0xbeffed40	0xbeffed40
+lr             0x0	0
+pc             0x1073c	0x1073c <main+320>
+cpsr           0x20000010	536870928
+
+
+218		mov	r3, r0
+r0             0x0	0
+r1             0x0	0
+r2             0x1	1
+r3             0x0	0
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0x0	0
+sp             0xbeffed40	0xbeffed40
+lr             0xb6ece2c8	-1225989432
+pc             0x10740	0x10740 <main+324>
+cpsr           0x60000010	1610612752
+
+
+219		cmp	r3, #0
+r0             0x0	0
+r1             0x0	0
+r2             0x1	1
+r3             0x0	0
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0x0	0
+sp             0xbeffed40	0xbeffed40
+lr             0xb6ece2c8	-1225989432
+pc             0x10744	0x10744 <main+328>
+cpsr           0x60000010	1610612752
+
+
+220		bne	.L12
+r0             0x0	0
+r1             0x0	0
+r2             0x1	1
+r3             0x0	0
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0x0	0
+sp             0xbeffed40	0xbeffed40
+lr             0xb6ece2c8	-1225989432
+pc             0x10748	0x10748 <main+332>
+cpsr           0x60000010	1610612752
+
+
+221		ldr	r3, [fp, #-52]
+r0             0x0	0
+r1             0x0	0
+r2             0x1	1
+r3             0x0	0
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0x0	0
+sp             0xbeffed40	0xbeffed40
+lr             0xb6ece2c8	-1225989432
+pc             0x1074c	0x1074c <main+336>
+cpsr           0x60000010	1610612752
+
+
+222		ldr	r1, [fp, #-44]
+r0             0x0	0
+r1             0x0	0
+r2             0x1	1
+r3             0xbeffed40	3204443456
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0x0	0
+sp             0xbeffed40	0xbeffed40
+lr             0xb6ece2c8	-1225989432
+pc             0x10750	0x10750 <main+340>
+cpsr           0x60000010	1610612752
+
+
+223		mov	r0, r3
+r0             0x0	0
+r1             0x2	2
+r2             0x1	1
+r3             0xbeffed40	3204443456
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0x0	0
+sp             0xbeffed40	0xbeffed40
+lr             0xb6ece2c8	-1225989432
+pc             0x10754	0x10754 <main+344>
+cpsr           0x60000010	1610612752
+
+
+224		bl	bubbleSort
+r0             0xbeffed40	3204443456
+r1             0x2	2
+r2             0x1	1
+r3             0xbeffed40	3204443456
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0x0	0
+sp             0xbeffed40	0xbeffed40
+lr             0xb6ece2c8	-1225989432
+pc             0x10758	0x10758 <main+348>
+cpsr           0x60000010	1610612752
+
+
+bubbleSort () at ordinaArray.s:54
+54		push	{fp, lr}
+r0             0xbeffed40	3204443456
+r1             0x2	2
+r2             0x1	1
+r3             0xbeffed40	3204443456
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0x0	0
+sp             0xbeffed40	0xbeffed40
+lr             0x1075c	67420
+pc             0x1051c	0x1051c <bubbleSort>
+cpsr           0x60000010	1610612752
+
+
+55		add	fp, sp, #4
+r0             0xbeffed40	3204443456
+r1             0x2	2
+r2             0x1	1
+r3             0xbeffed40	3204443456
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0x0	0
+sp             0xbeffed38	0xbeffed38
+lr             0x1075c	67420
+pc             0x10520	0x10520 <bubbleSort+4>
+cpsr           0x60000010	1610612752
+
+
+56		sub	sp, sp, #16
+r0             0xbeffed40	3204443456
+r1             0x2	2
+r2             0x1	1
+r3             0xbeffed40	3204443456
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed38	0xbeffed38
+lr             0x1075c	67420
+pc             0x10524	0x10524 <bubbleSort+8>
+cpsr           0x60000010	1610612752
+
+
+57		str	r0, [fp, #-16]
+r0             0xbeffed40	3204443456
+r1             0x2	2
+r2             0x1	1
+r3             0xbeffed40	3204443456
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x10528	0x10528 <bubbleSort+12>
+cpsr           0x60000010	1610612752
+
+
+58		str	r1, [fp, #-20]
+r0             0xbeffed40	3204443456
+r1             0x2	2
+r2             0x1	1
+r3             0xbeffed40	3204443456
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x1052c	0x1052c <bubbleSort+16>
+cpsr           0x60000010	1610612752
+
+
+59		mov	r3, #0
+r0             0xbeffed40	3204443456
+r1             0x2	2
+r2             0x1	1
+r3             0xbeffed40	3204443456
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x10530	0x10530 <bubbleSort+20>
+cpsr           0x60000010	1610612752
+
+
+60		str	r3, [fp, #-8]
+r0             0xbeffed40	3204443456
+r1             0x2	2
+r2             0x1	1
+r3             0x0	0
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x10534	0x10534 <bubbleSort+24>
+cpsr           0x60000010	1610612752
+
+
+61		b	.L3
+r0             0xbeffed40	3204443456
+r1             0x2	2
+r2             0x1	1
+r3             0x0	0
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x10538	0x10538 <bubbleSort+28>
+cpsr           0x60000010	1610612752
+
+
+107		ldr	r3, [fp, #-20]
+r0             0xbeffed40	3204443456
+r1             0x2	2
+r2             0x1	1
+r3             0x0	0
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x105dc	0x105dc <bubbleSort+192>
+cpsr           0x60000010	1610612752
+
+
+108		sub	r2, r3, #1
+r0             0xbeffed40	3204443456
+r1             0x2	2
+r2             0x1	1
+r3             0x2	2
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x105e0	0x105e0 <bubbleSort+196>
+cpsr           0x60000010	1610612752
+
+
+109		ldr	r3, [fp, #-8]
+r0             0xbeffed40	3204443456
+r1             0x2	2
+r2             0x1	1
+r3             0x2	2
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x105e4	0x105e4 <bubbleSort+200>
+cpsr           0x60000010	1610612752
+
+
+110		cmp	r2, r3
+r0             0xbeffed40	3204443456
+r1             0x2	2
+r2             0x1	1
+r3             0x0	0
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x105e8	0x105e8 <bubbleSort+204>
+cpsr           0x60000010	1610612752
+
+
+111		bgt	.L7
+r0             0xbeffed40	3204443456
+r1             0x2	2
+r2             0x1	1
+r3             0x0	0
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x105ec	0x105ec <bubbleSort+208>
+cpsr           0x20000010	536870928
+
+
+63		mov	r3, #0
+r0             0xbeffed40	3204443456
+r1             0x2	2
+r2             0x1	1
+r3             0x0	0
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x1053c	0x1053c <bubbleSort+32>
+cpsr           0x20000010	536870928
+
+
+64		str	r3, [fp, #-12]
+r0             0xbeffed40	3204443456
+r1             0x2	2
+r2             0x1	1
+r3             0x0	0
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x10540	0x10540 <bubbleSort+36>
+cpsr           0x20000010	536870928
+
+
+65		b	.L4
+r0             0xbeffed40	3204443456
+r1             0x2	2
+r2             0x1	1
+r3             0x0	0
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x10544	0x10544 <bubbleSort+40>
+cpsr           0x20000010	536870928
+
+
+96		ldr	r2, [fp, #-20]
+r0             0xbeffed40	3204443456
+r1             0x2	2
+r2             0x1	1
+r3             0x0	0
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x105b4	0x105b4 <bubbleSort+152>
+cpsr           0x20000010	536870928
+
+
+97		ldr	r3, [fp, #-8]
+r0             0xbeffed40	3204443456
+r1             0x2	2
+r2             0x2	2
+r3             0x0	0
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x105b8	0x105b8 <bubbleSort+156>
+cpsr           0x20000010	536870928
+
+
+98		sub	r3, r2, r3
+r0             0xbeffed40	3204443456
+r1             0x2	2
+r2             0x2	2
+r3             0x0	0
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x105bc	0x105bc <bubbleSort+160>
+cpsr           0x20000010	536870928
+
+
+99		sub	r2, r3, #1
+r0             0xbeffed40	3204443456
+r1             0x2	2
+r2             0x2	2
+r3             0x2	2
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x105c0	0x105c0 <bubbleSort+164>
+cpsr           0x20000010	536870928
+
+
+100		ldr	r3, [fp, #-12]
+r0             0xbeffed40	3204443456
+r1             0x2	2
+r2             0x1	1
+r3             0x2	2
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x105c4	0x105c4 <bubbleSort+168>
+cpsr           0x20000010	536870928
+
+
+101		cmp	r2, r3
+r0             0xbeffed40	3204443456
+r1             0x2	2
+r2             0x1	1
+r3             0x0	0
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x105c8	0x105c8 <bubbleSort+172>
+cpsr           0x20000010	536870928
+
+
+102		bgt	.L6
+r0             0xbeffed40	3204443456
+r1             0x2	2
+r2             0x1	1
+r3             0x0	0
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x105cc	0x105cc <bubbleSort+176>
+cpsr           0x20000010	536870928
+
+
+67		ldr	r3, [fp, #-12]
+r0             0xbeffed40	3204443456
+r1             0x2	2
+r2             0x1	1
+r3             0x0	0
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x10548	0x10548 <bubbleSort+44>
+cpsr           0x20000010	536870928
+
+
+68		lsl	r3, r3, #2
+r0             0xbeffed40	3204443456
+r1             0x2	2
+r2             0x1	1
+r3             0x0	0
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x1054c	0x1054c <bubbleSort+48>
+cpsr           0x20000010	536870928
+
+
+69		ldr	r2, [fp, #-16]
+r0             0xbeffed40	3204443456
+r1             0x2	2
+r2             0x1	1
+r3             0x0	0
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x10550	0x10550 <bubbleSort+52>
+cpsr           0x20000010	536870928
+
+
+70		add	r3, r2, r3
+r0             0xbeffed40	3204443456
+r1             0x2	2
+r2             0xbeffed40	3204443456
+r3             0x0	0
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x10554	0x10554 <bubbleSort+56>
+cpsr           0x20000010	536870928
+
+
+71		ldr	r2, [r3]
+r0             0xbeffed40	3204443456
+r1             0x2	2
+r2             0xbeffed40	3204443456
+r3             0xbeffed40	3204443456
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x10558	0x10558 <bubbleSort+60>
+cpsr           0x20000010	536870928
+
+
+72		ldr	r3, [fp, #-12]
+r0             0xbeffed40	3204443456
+r1             0x2	2
+r2             0x2	2
+r3             0xbeffed40	3204443456
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x1055c	0x1055c <bubbleSort+64>
+cpsr           0x20000010	536870928
+
+
+73		add	r3, r3, #1
+r0             0xbeffed40	3204443456
+r1             0x2	2
+r2             0x2	2
+r3             0x0	0
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x10560	0x10560 <bubbleSort+68>
+cpsr           0x20000010	536870928
+
+
+74		lsl	r3, r3, #2
+r0             0xbeffed40	3204443456
+r1             0x2	2
+r2             0x2	2
+r3             0x1	1
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x10564	0x10564 <bubbleSort+72>
+cpsr           0x20000010	536870928
+
+
+75		ldr	r1, [fp, #-16]
+r0             0xbeffed40	3204443456
+r1             0x2	2
+r2             0x2	2
+r3             0x4	4
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x10568	0x10568 <bubbleSort+76>
+cpsr           0x20000010	536870928
+
+
+76		add	r3, r1, r3
+r0             0xbeffed40	3204443456
+r1             0xbeffed40	3204443456
+r2             0x2	2
+r3             0x4	4
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x1056c	0x1056c <bubbleSort+80>
+cpsr           0x20000010	536870928
+
+
+77		ldr	r3, [r3]
+r0             0xbeffed40	3204443456
+r1             0xbeffed40	3204443456
+r2             0x2	2
+r3             0xbeffed44	3204443460
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x10570	0x10570 <bubbleSort+84>
+cpsr           0x20000010	536870928
+
+
+78		cmp	r2, r3
+r0             0xbeffed40	3204443456
+r1             0xbeffed40	3204443456
+r2             0x2	2
+r3             0x3	3
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x10574	0x10574 <bubbleSort+88>
+cpsr           0x20000010	536870928
+
+
+79		ble	.L5
+r0             0xbeffed40	3204443456
+r1             0xbeffed40	3204443456
+r2             0x2	2
+r3             0x3	3
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x10578	0x10578 <bubbleSort+92>
+cpsr           0x80000010	-2147483632
+
+
+92		ldr	r3, [fp, #-12]
+r0             0xbeffed40	3204443456
+r1             0xbeffed40	3204443456
+r2             0x2	2
+r3             0x3	3
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x105a8	0x105a8 <bubbleSort+140>
+cpsr           0x80000010	-2147483632
+
+
+93		add	r3, r3, #1
+r0             0xbeffed40	3204443456
+r1             0xbeffed40	3204443456
+r2             0x2	2
+r3             0x0	0
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x105ac	0x105ac <bubbleSort+144>
+cpsr           0x80000010	-2147483632
+
+
+94		str	r3, [fp, #-12]
+r0             0xbeffed40	3204443456
+r1             0xbeffed40	3204443456
+r2             0x2	2
+r3             0x1	1
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x105b0	0x105b0 <bubbleSort+148>
+cpsr           0x80000010	-2147483632
+
+
+96		ldr	r2, [fp, #-20]
+r0             0xbeffed40	3204443456
+r1             0xbeffed40	3204443456
+r2             0x2	2
+r3             0x1	1
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x105b4	0x105b4 <bubbleSort+152>
+cpsr           0x80000010	-2147483632
+
+
+97		ldr	r3, [fp, #-8]
+r0             0xbeffed40	3204443456
+r1             0xbeffed40	3204443456
+r2             0x2	2
+r3             0x1	1
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x105b8	0x105b8 <bubbleSort+156>
+cpsr           0x80000010	-2147483632
+
+
+98		sub	r3, r2, r3
+r0             0xbeffed40	3204443456
+r1             0xbeffed40	3204443456
+r2             0x2	2
+r3             0x0	0
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x105bc	0x105bc <bubbleSort+160>
+cpsr           0x80000010	-2147483632
+
+
+99		sub	r2, r3, #1
+r0             0xbeffed40	3204443456
+r1             0xbeffed40	3204443456
+r2             0x2	2
+r3             0x2	2
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x105c0	0x105c0 <bubbleSort+164>
+cpsr           0x80000010	-2147483632
+
+
+100		ldr	r3, [fp, #-12]
+r0             0xbeffed40	3204443456
+r1             0xbeffed40	3204443456
+r2             0x1	1
+r3             0x2	2
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x105c4	0x105c4 <bubbleSort+168>
+cpsr           0x80000010	-2147483632
+
+
+101		cmp	r2, r3
+r0             0xbeffed40	3204443456
+r1             0xbeffed40	3204443456
+r2             0x1	1
+r3             0x1	1
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x105c8	0x105c8 <bubbleSort+172>
+cpsr           0x80000010	-2147483632
+
+
+102		bgt	.L6
+r0             0xbeffed40	3204443456
+r1             0xbeffed40	3204443456
+r2             0x1	1
+r3             0x1	1
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x105cc	0x105cc <bubbleSort+176>
+cpsr           0x60000010	1610612752
+
+
+103		ldr	r3, [fp, #-8]
+r0             0xbeffed40	3204443456
+r1             0xbeffed40	3204443456
+r2             0x1	1
+r3             0x1	1
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x105d0	0x105d0 <bubbleSort+180>
+cpsr           0x60000010	1610612752
+
+
+104		add	r3, r3, #1
+r0             0xbeffed40	3204443456
+r1             0xbeffed40	3204443456
+r2             0x1	1
+r3             0x0	0
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x105d4	0x105d4 <bubbleSort+184>
+cpsr           0x60000010	1610612752
+
+
+105		str	r3, [fp, #-8]
+r0             0xbeffed40	3204443456
+r1             0xbeffed40	3204443456
+r2             0x1	1
+r3             0x1	1
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x105d8	0x105d8 <bubbleSort+188>
+cpsr           0x60000010	1610612752
+
+
+107		ldr	r3, [fp, #-20]
+r0             0xbeffed40	3204443456
+r1             0xbeffed40	3204443456
+r2             0x1	1
+r3             0x1	1
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x105dc	0x105dc <bubbleSort+192>
+cpsr           0x60000010	1610612752
+
+
+108		sub	r2, r3, #1
+r0             0xbeffed40	3204443456
+r1             0xbeffed40	3204443456
+r2             0x1	1
+r3             0x2	2
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x105e0	0x105e0 <bubbleSort+196>
+cpsr           0x60000010	1610612752
+
+
+109		ldr	r3, [fp, #-8]
+r0             0xbeffed40	3204443456
+r1             0xbeffed40	3204443456
+r2             0x1	1
+r3             0x2	2
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x105e4	0x105e4 <bubbleSort+200>
+cpsr           0x60000010	1610612752
+
+
+110		cmp	r2, r3
+r0             0xbeffed40	3204443456
+r1             0xbeffed40	3204443456
+r2             0x1	1
+r3             0x1	1
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x105e8	0x105e8 <bubbleSort+204>
+cpsr           0x60000010	1610612752
+
+
+111		bgt	.L7
+r0             0xbeffed40	3204443456
+r1             0xbeffed40	3204443456
+r2             0x1	1
+r3             0x1	1
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x105ec	0x105ec <bubbleSort+208>
+cpsr           0x60000010	1610612752
+
+
+112		nop
+r0             0xbeffed40	3204443456
+r1             0xbeffed40	3204443456
+r2             0x1	1
+r3             0x1	1
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffed3c	3204443452
+r12            0x0	0
+sp             0xbeffed28	0xbeffed28
+lr             0x1075c	67420
+pc             0x105f0	0x105f0 <bubbleSort+212>
+cpsr           0x60000010	1610612752
+
+
+main () at ordinaArray.s:231
+231		pop	{r4, r5, r6, r7, r8, fp, pc}
+r0             0x0	0
+r1             0xbeffed40	3204443456
+r2             0x1	1
+r3             0x0	0
+r4             0x40	64
+r5             0x0	0
+r6             0x40	64
+r7             0x0	0
+r8             0xbeffed50	3204443472
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffee8c	3204443788
+r12            0x0	0
+sp             0xbeffee74	0xbeffee74
+lr             0x1075c	67420
+pc             0x1076c	0x1076c <main+368>
+cpsr           0x60000010	1610612752
+
+
