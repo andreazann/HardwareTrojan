@@ -4,7 +4,7 @@ The project introduces HATE (HArdware Trojan Emulation Environment), a tool desi
 HATE helps determine whether specific software can activate HWTs and evaluates the effectiveness of HWT detection techniques. It can generate and inject different types of 
 HWTs into microprocessors and monitor their activation and effects during software execution, providing a comprehensive analysis framework for hardware security research.
 
-![alt text](https://drive.google.com/file/d/1OcH9SCZPTXQ_YLEgKUyP6NMreSDlawOO/view?usp=sharing)
+<img width="883" alt="hw-troj-image" src="https://github.com/user-attachments/assets/ea1f4f47-1ae2-46e8-9b89-af142363854e">
 
 ## Instructions for use:
 
