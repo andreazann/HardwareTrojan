@@ -1,1 +1,0 @@
-gdb --batch -x gdb_script_w --args a %1

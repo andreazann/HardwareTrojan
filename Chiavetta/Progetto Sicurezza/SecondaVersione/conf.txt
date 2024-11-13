@@ -1,3 +1,0 @@
-2
-/home/pi/Desktop/SecondaVersione/inputs/ciao.txt
-/home/pi/Desktop/SecondaVersione/inputs/input1.txt
