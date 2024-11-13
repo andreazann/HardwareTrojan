@@ -1,0 +1,18 @@
+#!/bin/bash
+
+set logging on
+break main
+skip -rfu fopen
+skip -rfu printf
+skip -rfu fgets
+skip -rfu atoi
+run
+
+while(1)
+	info registers
+	echo \n
+	echo \n
+	step
+end
+
+quit

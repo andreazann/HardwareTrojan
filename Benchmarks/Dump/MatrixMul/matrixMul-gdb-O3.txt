@@ -1,0 +1,41 @@
+
+52		mov	r0, #0
+r0             0x1	1
+r1             0xbeffefe4	3204444132
+r2             0xbeffefec	3204444140
+r3             0x10314	66324
+r4             0x10484	66692
+r5             0x0	0
+r6             0x1031c	66332
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0x0	0
+r12            0xbeffef10	3204443920
+sp             0xbeffee90	0xbeffee90
+lr             0xb6e7b678	-1226328456
+pc             0x10314	0x10314 <main>
+cpsr           0x60000010	1610612752
+
+
+53		bx	lr
+r0             0x0	0
+r1             0xbeffefe4	3204444132
+r2             0xbeffefec	3204444140
+r3             0x10314	66324
+r4             0x10484	66692
+r5             0x0	0
+r6             0x1031c	66332
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0x0	0
+r12            0xbeffef10	3204443920
+sp             0xbeffee90	0xbeffee90
+lr             0xb6e7b678	-1226328456
+pc             0x10318	0x10318 <main+4>
+cpsr           0x60000010	1610612752
+
+

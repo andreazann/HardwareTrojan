@@ -1,0 +1,4 @@
+Trojan numero 1 : trigger trovato all'istruzione 1
+Trojan numero 2 : trigger trovato all'istruzione 2
+Trojan numero 3 : trigger trovato all'istruzione 3
+Trojan numero 3 : trigger trovato all'istruzione 2

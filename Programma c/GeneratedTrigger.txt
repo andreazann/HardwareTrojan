@@ -1,0 +1,43 @@
+1   r3  0x2530b8c7
+
+1   r1  0xab84db0e
+1   r5  0xf65eb301
+1   r0  0x6618b09e
+1   pc  0x42bcee0
+1   r3  0x91580442
+1   r8  0x17507e15
+1   sp  0x65afa64e
+1   r4  0x58f2aef9
+1   lr  0x8d43e191
+2   r1  0xbefff0a4
+2   r5  0x16c22cb8
+2   r0  0x1
+2   pc  0x10440
+2   r3  0x1043c
+2   r8  0x0
+2   sp  0xbeffef48
+2   r4  0x1045c
+2   lr  0xb6e7b678
+2   r6  0x10314
+2   r12  0xbeffefd0
+2   cpsr  0x60000010
+
+1   r5  0x937abd2e
+1   r4  0x9708fb27
+1   r3  0x9708fb26
+2   r5  0x16c22cb8
+3   r5  0xe7fcd4f6
+3   r4  0x2ad640a8
+3   pc  0x595bd7
+3   r11  0xceaaf8e1
+3   r3  0x8f309249
+3   r12  0x81704f18
+3   cpsr  0xc23efd8c
+3   r8  0xde02d5c1
+4   r5  0x62ec8c85
+4   r4  0x668fd163
+4   pc  0xfcb7024
+4   r11  0xbf0cef00
+4   r3  0xebeeb924
+4   r12  0x88016fd8
+

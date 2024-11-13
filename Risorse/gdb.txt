@@ -1,0 +1,5068 @@
+Breakpoint 1 at 0x105c4: file ordinaArray.s, line 126.
+
+Breakpoint 1, main () at ordinaArray.s:126
+126		push	{fp, lr}
+r0             0x1	1
+r1             0xbefff084	3204444292
+r2             0xbefff08c	3204444300
+r3             0x105c4	67012
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0x0	0
+r12            0xbeffefb0	3204444080
+sp             0xbeffef30	0xbeffef30
+lr             0xb6e7b678	-1226328456
+pc             0x105c4	0x105c4 <main>
+cpsr           0x60000010	1610612752
+
+
+127		add	fp, sp, #4
+r0             0x1	1
+r1             0xbefff084	3204444292
+r2             0xbefff08c	3204444300
+r3             0x105c4	67012
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0x0	0
+r12            0xbeffefb0	3204444080
+sp             0xbeffef28	0xbeffef28
+lr             0xb6e7b678	-1226328456
+pc             0x105c8	0x105c8 <main+4>
+cpsr           0x60000010	1610612752
+
+
+128		sub	sp, sp, #48
+r0             0x1	1
+r1             0xbefff084	3204444292
+r2             0xbefff08c	3204444300
+r3             0x105c4	67012
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xbeffefb0	3204444080
+sp             0xbeffef28	0xbeffef28
+lr             0xb6e7b678	-1226328456
+pc             0x105cc	0x105cc <main+8>
+cpsr           0x60000010	1610612752
+
+
+129		mov	r0, #0
+r0             0x1	1
+r1             0xbefff084	3204444292
+r2             0xbefff08c	3204444300
+r3             0x105c4	67012
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xbeffefb0	3204444080
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6e7b678	-1226328456
+pc             0x105d0	0x105d0 <main+12>
+cpsr           0x60000010	1610612752
+
+
+130		bl	time
+r0             0x0	0
+r1             0xbefff084	3204444292
+r2             0xbefff08c	3204444300
+r3             0x105c4	67012
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xbeffefb0	3204444080
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6e7b678	-1226328456
+pc             0x105d4	0x105d4 <main+16>
+cpsr           0x60000010	1610612752
+
+
+131		mov	r3, r0
+r0             0x5b192a3f	1528375871
+r1             0x0	0
+r2             0x88a1e702	2292311810
+r3             0x0	0
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6ffece4	3070225636
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6ef05b0	-1225849424
+pc             0x105d8	0x105d8 <main+20>
+cpsr           0x60000010	1610612752
+
+
+132		mov	r0, r3
+r0             0x5b192a3f	1528375871
+r1             0x0	0
+r2             0x88a1e702	2292311810
+r3             0x5b192a3f	1528375871
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6ffece4	3070225636
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6ef05b0	-1225849424
+pc             0x105dc	0x105dc <main+24>
+cpsr           0x60000010	1610612752
+
+
+133		bl	srand
+r0             0x5b192a3f	1528375871
+r1             0x0	0
+r2             0x88a1e702	2292311810
+r3             0x5b192a3f	1528375871
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6ffece4	3070225636
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6ef05b0	-1225849424
+pc             0x105e0	0x105e0 <main+28>
+cpsr           0x60000010	1610612752
+
+
+134		mov	r3, #0
+r0             0x0	0
+r1             0x0	0
+r2             0x1	1
+r3             0xb6fa14c4	3069842628
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01b4	3069837748
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105e4	0x105e4 <main+32>
+cpsr           0x60000010	1610612752
+
+
+135		str	r3, [fp, #-8]
+r0             0x0	0
+r1             0x0	0
+r2             0x1	1
+r3             0x0	0
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01b4	3069837748
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105e8	0x105e8 <main+36>
+cpsr           0x60000010	1610612752
+
+
+136		b	.L9
+r0             0x0	0
+r1             0x0	0
+r2             0x1	1
+r3             0x0	0
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01b4	3069837748
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105ec	0x105ec <main+40>
+cpsr           0x60000010	1610612752
+
+
+159		ldr	r3, [fp, #-8]
+r0             0x0	0
+r1             0x0	0
+r2             0x1	1
+r3             0x0	0
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01b4	3069837748
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10640	0x10640 <main+124>
+cpsr           0x60000010	1610612752
+
+
+160		cmp	r3, #9
+r0             0x0	0
+r1             0x0	0
+r2             0x1	1
+r3             0x0	0
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01b4	3069837748
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10644	0x10644 <main+128>
+cpsr           0x60000010	1610612752
+
+
+161		ble	.L10
+r0             0x0	0
+r1             0x0	0
+r2             0x1	1
+r3             0x0	0
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01b4	3069837748
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10648	0x10648 <main+132>
+cpsr           0x80000010	-2147483632
+
+
+138		bl	rand
+r0             0x0	0
+r1             0x0	0
+r2             0x1	1
+r3             0x0	0
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01b4	3069837748
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105f0	0x105f0 <main+44>
+cpsr           0x80000010	-2147483632
+
+
+139		mov	r3, r0
+r0             0x24c0709e	616591518
+r1             0x0	0
+r2             0x1	1
+r3             0xb6fa14c4	3069842628
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01b8	3069837752
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105f4	0x105f4 <main+48>
+cpsr           0x60000010	1610612752
+
+
+140		ldr	r2, .L12
+r0             0x24c0709e	616591518
+r1             0x0	0
+r2             0x1	1
+r3             0x24c0709e	616591518
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01b8	3069837752
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105f8	0x105f8 <main+52>
+cpsr           0x60000010	1610612752
+
+
+141		smull	r1, r2, r2, r3
+r0             0x24c0709e	616591518
+r1             0x0	0
+r2             0x51eb851f	1374389535
+r3             0x24c0709e	616591518
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01b8	3069837752
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105fc	0x105fc <main+56>
+cpsr           0x60000010	1610612752
+
+
+142		asr	r1, r2, #4
+r0             0x24c0709e	616591518
+r1             0xccd9b922	3436820770
+r2             0xbc2b365	197309285
+r3             0x24c0709e	616591518
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01b8	3069837752
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10600	0x10600 <main+60>
+cpsr           0x60000010	1610612752
+
+
+143		asr	r2, r3, #31
+r0             0x24c0709e	616591518
+r1             0xbc2b36	12331830
+r2             0xbc2b365	197309285
+r3             0x24c0709e	616591518
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01b8	3069837752
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10604	0x10604 <main+64>
+cpsr           0x60000010	1610612752
+
+
+144		sub	r2, r1, r2
+r0             0x24c0709e	616591518
+r1             0xbc2b36	12331830
+r2             0x0	0
+r3             0x24c0709e	616591518
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01b8	3069837752
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10608	0x10608 <main+68>
+cpsr           0x60000010	1610612752
+
+
+145		mov	r1, #50
+r0             0x24c0709e	616591518
+r1             0xbc2b36	12331830
+r2             0xbc2b36	12331830
+r3             0x24c0709e	616591518
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01b8	3069837752
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1060c	0x1060c <main+72>
+cpsr           0x60000010	1610612752
+
+
+146		mul	r2, r1, r2
+r0             0x24c0709e	616591518
+r1             0x32	50
+r2             0xbc2b36	12331830
+r3             0x24c0709e	616591518
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01b8	3069837752
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10610	0x10610 <main+76>
+cpsr           0x60000010	1610612752
+
+
+147		sub	r3, r3, r2
+r0             0x24c0709e	616591518
+r1             0x32	50
+r2             0x24c0708c	616591500
+r3             0x24c0709e	616591518
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01b8	3069837752
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10614	0x10614 <main+80>
+cpsr           0x60000010	1610612752
+
+
+148		str	r3, [fp, #-12]
+r0             0x24c0709e	616591518
+r1             0x32	50
+r2             0x24c0708c	616591500
+r3             0x12	18
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01b8	3069837752
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10618	0x10618 <main+84>
+cpsr           0x60000010	1610612752
+
+
+149		ldr	r3, [fp, #-8]
+r0             0x24c0709e	616591518
+r1             0x32	50
+r2             0x24c0708c	616591500
+r3             0x12	18
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01b8	3069837752
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1061c	0x1061c <main+88>
+cpsr           0x60000010	1610612752
+
+
+150		lsl	r3, r3, #2
+r0             0x24c0709e	616591518
+r1             0x32	50
+r2             0x24c0708c	616591500
+r3             0x0	0
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01b8	3069837752
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10620	0x10620 <main+92>
+cpsr           0x60000010	1610612752
+
+
+151		sub	r2, fp, #4
+r0             0x24c0709e	616591518
+r1             0x32	50
+r2             0x24c0708c	616591500
+r3             0x0	0
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01b8	3069837752
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10624	0x10624 <main+96>
+cpsr           0x60000010	1610612752
+
+
+152		add	r3, r2, r3
+r0             0x24c0709e	616591518
+r1             0x32	50
+r2             0xbeffef28	3204443944
+r3             0x0	0
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01b8	3069837752
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10628	0x10628 <main+100>
+cpsr           0x60000010	1610612752
+
+
+153		ldr	r2, [fp, #-12]
+r0             0x24c0709e	616591518
+r1             0x32	50
+r2             0xbeffef28	3204443944
+r3             0xbeffef28	3204443944
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01b8	3069837752
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1062c	0x1062c <main+104>
+cpsr           0x60000010	1610612752
+
+
+154		str	r2, [r3, #-48]
+r0             0x24c0709e	616591518
+r1             0x32	50
+r2             0x12	18
+r3             0xbeffef28	3204443944
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01b8	3069837752
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10630	0x10630 <main+108>
+cpsr           0x60000010	1610612752
+
+
+155		ldr	r3, [fp, #-8]
+r0             0x24c0709e	616591518
+r1             0x32	50
+r2             0x12	18
+r3             0xbeffef28	3204443944
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01b8	3069837752
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10634	0x10634 <main+112>
+cpsr           0x60000010	1610612752
+
+
+156		add	r3, r3, #1
+r0             0x24c0709e	616591518
+r1             0x32	50
+r2             0x12	18
+r3             0x0	0
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01b8	3069837752
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10638	0x10638 <main+116>
+cpsr           0x60000010	1610612752
+
+
+157		str	r3, [fp, #-8]
+r0             0x24c0709e	616591518
+r1             0x32	50
+r2             0x12	18
+r3             0x1	1
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01b8	3069837752
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1063c	0x1063c <main+120>
+cpsr           0x60000010	1610612752
+
+
+159		ldr	r3, [fp, #-8]
+r0             0x24c0709e	616591518
+r1             0x32	50
+r2             0x12	18
+r3             0x1	1
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01b8	3069837752
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10640	0x10640 <main+124>
+cpsr           0x60000010	1610612752
+
+
+160		cmp	r3, #9
+r0             0x24c0709e	616591518
+r1             0x32	50
+r2             0x12	18
+r3             0x1	1
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01b8	3069837752
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10644	0x10644 <main+128>
+cpsr           0x60000010	1610612752
+
+
+161		ble	.L10
+r0             0x24c0709e	616591518
+r1             0x32	50
+r2             0x12	18
+r3             0x1	1
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01b8	3069837752
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10648	0x10648 <main+132>
+cpsr           0x80000010	-2147483632
+
+
+138		bl	rand
+r0             0x24c0709e	616591518
+r1             0x32	50
+r2             0x12	18
+r3             0x1	1
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01b8	3069837752
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105f0	0x105f0 <main+44>
+cpsr           0x80000010	-2147483632
+
+
+139		mov	r3, r0
+r0             0x607d37ec	1618819052
+r1             0x0	0
+r2             0x1	1
+r3             0xb6fa14c4	3069842628
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01bc	3069837756
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105f4	0x105f4 <main+48>
+cpsr           0x60000010	1610612752
+
+
+140		ldr	r2, .L12
+r0             0x607d37ec	1618819052
+r1             0x0	0
+r2             0x1	1
+r3             0x607d37ec	1618819052
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01bc	3069837756
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105f8	0x105f8 <main+52>
+cpsr           0x60000010	1610612752
+
+
+141		smull	r1, r2, r2, r3
+r0             0x607d37ec	1618819052
+r1             0x0	0
+r2             0x51eb851f	1374389535
+r3             0x607d37ec	1618819052
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01bc	3069837756
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105fc	0x105fc <main+56>
+cpsr           0x60000010	1610612752
+
+
+142		asr	r1, r2, #4
+r0             0x607d37ec	1618819052
+r1             0xbedb6194	3202048404
+r2             0x1ee063d0	518022096
+r3             0x607d37ec	1618819052
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01bc	3069837756
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10600	0x10600 <main+60>
+cpsr           0x60000010	1610612752
+
+
+143		asr	r2, r3, #31
+r0             0x607d37ec	1618819052
+r1             0x1ee063d	32376381
+r2             0x1ee063d0	518022096
+r3             0x607d37ec	1618819052
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01bc	3069837756
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10604	0x10604 <main+64>
+cpsr           0x60000010	1610612752
+
+
+144		sub	r2, r1, r2
+r0             0x607d37ec	1618819052
+r1             0x1ee063d	32376381
+r2             0x0	0
+r3             0x607d37ec	1618819052
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01bc	3069837756
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10608	0x10608 <main+68>
+cpsr           0x60000010	1610612752
+
+
+145		mov	r1, #50
+r0             0x607d37ec	1618819052
+r1             0x1ee063d	32376381
+r2             0x1ee063d	32376381
+r3             0x607d37ec	1618819052
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01bc	3069837756
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1060c	0x1060c <main+72>
+cpsr           0x60000010	1610612752
+
+
+146		mul	r2, r1, r2
+r0             0x607d37ec	1618819052
+r1             0x32	50
+r2             0x1ee063d	32376381
+r3             0x607d37ec	1618819052
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01bc	3069837756
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10610	0x10610 <main+76>
+cpsr           0x60000010	1610612752
+
+
+147		sub	r3, r3, r2
+r0             0x607d37ec	1618819052
+r1             0x32	50
+r2             0x607d37ea	1618819050
+r3             0x607d37ec	1618819052
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01bc	3069837756
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10614	0x10614 <main+80>
+cpsr           0x60000010	1610612752
+
+
+148		str	r3, [fp, #-12]
+r0             0x607d37ec	1618819052
+r1             0x32	50
+r2             0x607d37ea	1618819050
+r3             0x2	2
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01bc	3069837756
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10618	0x10618 <main+84>
+cpsr           0x60000010	1610612752
+
+
+149		ldr	r3, [fp, #-8]
+r0             0x607d37ec	1618819052
+r1             0x32	50
+r2             0x607d37ea	1618819050
+r3             0x2	2
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01bc	3069837756
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1061c	0x1061c <main+88>
+cpsr           0x60000010	1610612752
+
+
+150		lsl	r3, r3, #2
+r0             0x607d37ec	1618819052
+r1             0x32	50
+r2             0x607d37ea	1618819050
+r3             0x1	1
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01bc	3069837756
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10620	0x10620 <main+92>
+cpsr           0x60000010	1610612752
+
+
+151		sub	r2, fp, #4
+r0             0x607d37ec	1618819052
+r1             0x32	50
+r2             0x607d37ea	1618819050
+r3             0x4	4
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01bc	3069837756
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10624	0x10624 <main+96>
+cpsr           0x60000010	1610612752
+
+
+152		add	r3, r2, r3
+r0             0x607d37ec	1618819052
+r1             0x32	50
+r2             0xbeffef28	3204443944
+r3             0x4	4
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01bc	3069837756
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10628	0x10628 <main+100>
+cpsr           0x60000010	1610612752
+
+
+153		ldr	r2, [fp, #-12]
+r0             0x607d37ec	1618819052
+r1             0x32	50
+r2             0xbeffef28	3204443944
+r3             0xbeffef2c	3204443948
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01bc	3069837756
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1062c	0x1062c <main+104>
+cpsr           0x60000010	1610612752
+
+
+154		str	r2, [r3, #-48]
+r0             0x607d37ec	1618819052
+r1             0x32	50
+r2             0x2	2
+r3             0xbeffef2c	3204443948
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01bc	3069837756
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10630	0x10630 <main+108>
+cpsr           0x60000010	1610612752
+
+
+155		ldr	r3, [fp, #-8]
+r0             0x607d37ec	1618819052
+r1             0x32	50
+r2             0x2	2
+r3             0xbeffef2c	3204443948
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01bc	3069837756
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10634	0x10634 <main+112>
+cpsr           0x60000010	1610612752
+
+
+156		add	r3, r3, #1
+r0             0x607d37ec	1618819052
+r1             0x32	50
+r2             0x2	2
+r3             0x1	1
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01bc	3069837756
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10638	0x10638 <main+116>
+cpsr           0x60000010	1610612752
+
+
+157		str	r3, [fp, #-8]
+r0             0x607d37ec	1618819052
+r1             0x32	50
+r2             0x2	2
+r3             0x2	2
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01bc	3069837756
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1063c	0x1063c <main+120>
+cpsr           0x60000010	1610612752
+
+
+159		ldr	r3, [fp, #-8]
+r0             0x607d37ec	1618819052
+r1             0x32	50
+r2             0x2	2
+r3             0x2	2
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01bc	3069837756
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10640	0x10640 <main+124>
+cpsr           0x60000010	1610612752
+
+
+160		cmp	r3, #9
+r0             0x607d37ec	1618819052
+r1             0x32	50
+r2             0x2	2
+r3             0x2	2
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01bc	3069837756
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10644	0x10644 <main+128>
+cpsr           0x60000010	1610612752
+
+
+161		ble	.L10
+r0             0x607d37ec	1618819052
+r1             0x32	50
+r2             0x2	2
+r3             0x2	2
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01bc	3069837756
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10648	0x10648 <main+132>
+cpsr           0x80000010	-2147483632
+
+
+138		bl	rand
+r0             0x607d37ec	1618819052
+r1             0x32	50
+r2             0x2	2
+r3             0x2	2
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01bc	3069837756
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105f0	0x105f0 <main+44>
+cpsr           0x80000010	-2147483632
+
+
+139		mov	r3, r0
+r0             0x47028c22	1191349282
+r1             0x0	0
+r2             0x1	1
+r3             0xb6fa14c4	3069842628
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c0	3069837760
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105f4	0x105f4 <main+48>
+cpsr           0x60000010	1610612752
+
+
+140		ldr	r2, .L12
+r0             0x47028c22	1191349282
+r1             0x0	0
+r2             0x1	1
+r3             0x47028c22	1191349282
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c0	3069837760
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105f8	0x105f8 <main+52>
+cpsr           0x60000010	1610612752
+
+
+141		smull	r1, r2, r2, r3
+r0             0x47028c22	1191349282
+r1             0x0	0
+r2             0x51eb851f	1374389535
+r3             0x47028c22	1191349282
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c0	3069837760
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105fc	0x105fc <main+56>
+cpsr           0x60000010	1610612752
+
+
+142		asr	r1, r2, #4
+r0             0x47028c22	1191349282
+r1             0x5152a21e	1364369950
+r2             0x16b9229a	381231770
+r3             0x47028c22	1191349282
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c0	3069837760
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10600	0x10600 <main+60>
+cpsr           0x60000010	1610612752
+
+
+143		asr	r2, r3, #31
+r0             0x47028c22	1191349282
+r1             0x16b9229	23826985
+r2             0x16b9229a	381231770
+r3             0x47028c22	1191349282
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c0	3069837760
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10604	0x10604 <main+64>
+cpsr           0x60000010	1610612752
+
+
+144		sub	r2, r1, r2
+r0             0x47028c22	1191349282
+r1             0x16b9229	23826985
+r2             0x0	0
+r3             0x47028c22	1191349282
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c0	3069837760
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10608	0x10608 <main+68>
+cpsr           0x60000010	1610612752
+
+
+145		mov	r1, #50
+r0             0x47028c22	1191349282
+r1             0x16b9229	23826985
+r2             0x16b9229	23826985
+r3             0x47028c22	1191349282
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c0	3069837760
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1060c	0x1060c <main+72>
+cpsr           0x60000010	1610612752
+
+
+146		mul	r2, r1, r2
+r0             0x47028c22	1191349282
+r1             0x32	50
+r2             0x16b9229	23826985
+r3             0x47028c22	1191349282
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c0	3069837760
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10610	0x10610 <main+76>
+cpsr           0x60000010	1610612752
+
+
+147		sub	r3, r3, r2
+r0             0x47028c22	1191349282
+r1             0x32	50
+r2             0x47028c02	1191349250
+r3             0x47028c22	1191349282
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c0	3069837760
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10614	0x10614 <main+80>
+cpsr           0x60000010	1610612752
+
+
+148		str	r3, [fp, #-12]
+r0             0x47028c22	1191349282
+r1             0x32	50
+r2             0x47028c02	1191349250
+r3             0x20	32
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c0	3069837760
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10618	0x10618 <main+84>
+cpsr           0x60000010	1610612752
+
+
+149		ldr	r3, [fp, #-8]
+r0             0x47028c22	1191349282
+r1             0x32	50
+r2             0x47028c02	1191349250
+r3             0x20	32
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c0	3069837760
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1061c	0x1061c <main+88>
+cpsr           0x60000010	1610612752
+
+
+150		lsl	r3, r3, #2
+r0             0x47028c22	1191349282
+r1             0x32	50
+r2             0x47028c02	1191349250
+r3             0x2	2
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c0	3069837760
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10620	0x10620 <main+92>
+cpsr           0x60000010	1610612752
+
+
+151		sub	r2, fp, #4
+r0             0x47028c22	1191349282
+r1             0x32	50
+r2             0x47028c02	1191349250
+r3             0x8	8
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c0	3069837760
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10624	0x10624 <main+96>
+cpsr           0x60000010	1610612752
+
+
+152		add	r3, r2, r3
+r0             0x47028c22	1191349282
+r1             0x32	50
+r2             0xbeffef28	3204443944
+r3             0x8	8
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c0	3069837760
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10628	0x10628 <main+100>
+cpsr           0x60000010	1610612752
+
+
+153		ldr	r2, [fp, #-12]
+r0             0x47028c22	1191349282
+r1             0x32	50
+r2             0xbeffef28	3204443944
+r3             0xbeffef30	3204443952
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c0	3069837760
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1062c	0x1062c <main+104>
+cpsr           0x60000010	1610612752
+
+
+154		str	r2, [r3, #-48]
+r0             0x47028c22	1191349282
+r1             0x32	50
+r2             0x20	32
+r3             0xbeffef30	3204443952
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c0	3069837760
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10630	0x10630 <main+108>
+cpsr           0x60000010	1610612752
+
+
+155		ldr	r3, [fp, #-8]
+r0             0x47028c22	1191349282
+r1             0x32	50
+r2             0x20	32
+r3             0xbeffef30	3204443952
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c0	3069837760
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10634	0x10634 <main+112>
+cpsr           0x60000010	1610612752
+
+
+156		add	r3, r3, #1
+r0             0x47028c22	1191349282
+r1             0x32	50
+r2             0x20	32
+r3             0x2	2
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c0	3069837760
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10638	0x10638 <main+116>
+cpsr           0x60000010	1610612752
+
+
+157		str	r3, [fp, #-8]
+r0             0x47028c22	1191349282
+r1             0x32	50
+r2             0x20	32
+r3             0x3	3
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c0	3069837760
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1063c	0x1063c <main+120>
+cpsr           0x60000010	1610612752
+
+
+159		ldr	r3, [fp, #-8]
+r0             0x47028c22	1191349282
+r1             0x32	50
+r2             0x20	32
+r3             0x3	3
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c0	3069837760
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10640	0x10640 <main+124>
+cpsr           0x60000010	1610612752
+
+
+160		cmp	r3, #9
+r0             0x47028c22	1191349282
+r1             0x32	50
+r2             0x20	32
+r3             0x3	3
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c0	3069837760
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10644	0x10644 <main+128>
+cpsr           0x60000010	1610612752
+
+
+161		ble	.L10
+r0             0x47028c22	1191349282
+r1             0x32	50
+r2             0x20	32
+r3             0x3	3
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c0	3069837760
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10648	0x10648 <main+132>
+cpsr           0x80000010	-2147483632
+
+
+138		bl	rand
+r0             0x47028c22	1191349282
+r1             0x32	50
+r2             0x20	32
+r3             0x3	3
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c0	3069837760
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105f0	0x105f0 <main+44>
+cpsr           0x80000010	-2147483632
+
+
+139		mov	r3, r0
+r0             0x5d60b70d	1566619405
+r1             0x0	0
+r2             0x1	1
+r3             0xb6fa14c4	3069842628
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c4	3069837764
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105f4	0x105f4 <main+48>
+cpsr           0x60000010	1610612752
+
+
+140		ldr	r2, .L12
+r0             0x5d60b70d	1566619405
+r1             0x0	0
+r2             0x1	1
+r3             0x5d60b70d	1566619405
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c4	3069837764
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105f8	0x105f8 <main+52>
+cpsr           0x60000010	1610612752
+
+
+141		smull	r1, r2, r2, r3
+r0             0x5d60b70d	1566619405
+r1             0x0	0
+r2             0x51eb851f	1374389535
+r3             0x5d60b70d	1566619405
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c4	3069837764
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105fc	0x105fc <main+56>
+cpsr           0x60000010	1610612752
+
+
+142		asr	r1, r2, #4
+r0             0x5d60b70d	1566619405
+r1             0xb3beeb93	3015633811
+r2             0x1de18241	501318209
+r3             0x5d60b70d	1566619405
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c4	3069837764
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10600	0x10600 <main+60>
+cpsr           0x60000010	1610612752
+
+
+143		asr	r2, r3, #31
+r0             0x5d60b70d	1566619405
+r1             0x1de1824	31332388
+r2             0x1de18241	501318209
+r3             0x5d60b70d	1566619405
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c4	3069837764
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10604	0x10604 <main+64>
+cpsr           0x60000010	1610612752
+
+
+144		sub	r2, r1, r2
+r0             0x5d60b70d	1566619405
+r1             0x1de1824	31332388
+r2             0x0	0
+r3             0x5d60b70d	1566619405
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c4	3069837764
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10608	0x10608 <main+68>
+cpsr           0x60000010	1610612752
+
+
+145		mov	r1, #50
+r0             0x5d60b70d	1566619405
+r1             0x1de1824	31332388
+r2             0x1de1824	31332388
+r3             0x5d60b70d	1566619405
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c4	3069837764
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1060c	0x1060c <main+72>
+cpsr           0x60000010	1610612752
+
+
+146		mul	r2, r1, r2
+r0             0x5d60b70d	1566619405
+r1             0x32	50
+r2             0x1de1824	31332388
+r3             0x5d60b70d	1566619405
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c4	3069837764
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10610	0x10610 <main+76>
+cpsr           0x60000010	1610612752
+
+
+147		sub	r3, r3, r2
+r0             0x5d60b70d	1566619405
+r1             0x32	50
+r2             0x5d60b708	1566619400
+r3             0x5d60b70d	1566619405
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c4	3069837764
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10614	0x10614 <main+80>
+cpsr           0x60000010	1610612752
+
+
+148		str	r3, [fp, #-12]
+r0             0x5d60b70d	1566619405
+r1             0x32	50
+r2             0x5d60b708	1566619400
+r3             0x5	5
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c4	3069837764
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10618	0x10618 <main+84>
+cpsr           0x60000010	1610612752
+
+
+149		ldr	r3, [fp, #-8]
+r0             0x5d60b70d	1566619405
+r1             0x32	50
+r2             0x5d60b708	1566619400
+r3             0x5	5
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c4	3069837764
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1061c	0x1061c <main+88>
+cpsr           0x60000010	1610612752
+
+
+150		lsl	r3, r3, #2
+r0             0x5d60b70d	1566619405
+r1             0x32	50
+r2             0x5d60b708	1566619400
+r3             0x3	3
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c4	3069837764
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10620	0x10620 <main+92>
+cpsr           0x60000010	1610612752
+
+
+151		sub	r2, fp, #4
+r0             0x5d60b70d	1566619405
+r1             0x32	50
+r2             0x5d60b708	1566619400
+r3             0xc	12
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c4	3069837764
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10624	0x10624 <main+96>
+cpsr           0x60000010	1610612752
+
+
+152		add	r3, r2, r3
+r0             0x5d60b70d	1566619405
+r1             0x32	50
+r2             0xbeffef28	3204443944
+r3             0xc	12
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c4	3069837764
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10628	0x10628 <main+100>
+cpsr           0x60000010	1610612752
+
+
+153		ldr	r2, [fp, #-12]
+r0             0x5d60b70d	1566619405
+r1             0x32	50
+r2             0xbeffef28	3204443944
+r3             0xbeffef34	3204443956
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c4	3069837764
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1062c	0x1062c <main+104>
+cpsr           0x60000010	1610612752
+
+
+154		str	r2, [r3, #-48]
+r0             0x5d60b70d	1566619405
+r1             0x32	50
+r2             0x5	5
+r3             0xbeffef34	3204443956
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c4	3069837764
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10630	0x10630 <main+108>
+cpsr           0x60000010	1610612752
+
+
+155		ldr	r3, [fp, #-8]
+r0             0x5d60b70d	1566619405
+r1             0x32	50
+r2             0x5	5
+r3             0xbeffef34	3204443956
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c4	3069837764
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10634	0x10634 <main+112>
+cpsr           0x60000010	1610612752
+
+
+156		add	r3, r3, #1
+r0             0x5d60b70d	1566619405
+r1             0x32	50
+r2             0x5	5
+r3             0x3	3
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c4	3069837764
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10638	0x10638 <main+116>
+cpsr           0x60000010	1610612752
+
+
+157		str	r3, [fp, #-8]
+r0             0x5d60b70d	1566619405
+r1             0x32	50
+r2             0x5	5
+r3             0x4	4
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c4	3069837764
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1063c	0x1063c <main+120>
+cpsr           0x60000010	1610612752
+
+
+159		ldr	r3, [fp, #-8]
+r0             0x5d60b70d	1566619405
+r1             0x32	50
+r2             0x5	5
+r3             0x4	4
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c4	3069837764
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10640	0x10640 <main+124>
+cpsr           0x60000010	1610612752
+
+
+160		cmp	r3, #9
+r0             0x5d60b70d	1566619405
+r1             0x32	50
+r2             0x5	5
+r3             0x4	4
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c4	3069837764
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10644	0x10644 <main+128>
+cpsr           0x60000010	1610612752
+
+
+161		ble	.L10
+r0             0x5d60b70d	1566619405
+r1             0x32	50
+r2             0x5	5
+r3             0x4	4
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c4	3069837764
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10648	0x10648 <main+132>
+cpsr           0x80000010	-2147483632
+
+
+138		bl	rand
+r0             0x5d60b70d	1566619405
+r1             0x32	50
+r2             0x5	5
+r3             0x4	4
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c4	3069837764
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105f0	0x105f0 <main+44>
+cpsr           0x80000010	-2147483632
+
+
+139		mov	r3, r0
+r0             0x3a87c2f8	981975800
+r1             0x0	0
+r2             0x1	1
+r3             0xb6fa14c4	3069842628
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c8	3069837768
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105f4	0x105f4 <main+48>
+cpsr           0x60000010	1610612752
+
+
+140		ldr	r2, .L12
+r0             0x3a87c2f8	981975800
+r1             0x0	0
+r2             0x1	1
+r3             0x3a87c2f8	981975800
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c8	3069837768
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105f8	0x105f8 <main+52>
+cpsr           0x60000010	1610612752
+
+
+141		smull	r1, r2, r2, r3
+r0             0x3a87c2f8	981975800
+r1             0x0	0
+r2             0x51eb851f	1374389535
+r3             0x3a87c2f8	981975800
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c8	3069837768
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105fc	0x105fc <main+56>
+cpsr           0x60000010	1610612752
+
+
+142		asr	r1, r2, #4
+r0             0x3a87c2f8	981975800
+r1             0x10637408	274953224
+r2             0x12bacdc0	314232256
+r3             0x3a87c2f8	981975800
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c8	3069837768
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10600	0x10600 <main+60>
+cpsr           0x60000010	1610612752
+
+
+143		asr	r2, r3, #31
+r0             0x3a87c2f8	981975800
+r1             0x12bacdc	19639516
+r2             0x12bacdc0	314232256
+r3             0x3a87c2f8	981975800
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c8	3069837768
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10604	0x10604 <main+64>
+cpsr           0x60000010	1610612752
+
+
+144		sub	r2, r1, r2
+r0             0x3a87c2f8	981975800
+r1             0x12bacdc	19639516
+r2             0x0	0
+r3             0x3a87c2f8	981975800
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c8	3069837768
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10608	0x10608 <main+68>
+cpsr           0x60000010	1610612752
+
+
+145		mov	r1, #50
+r0             0x3a87c2f8	981975800
+r1             0x12bacdc	19639516
+r2             0x12bacdc	19639516
+r3             0x3a87c2f8	981975800
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c8	3069837768
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1060c	0x1060c <main+72>
+cpsr           0x60000010	1610612752
+
+
+146		mul	r2, r1, r2
+r0             0x3a87c2f8	981975800
+r1             0x32	50
+r2             0x12bacdc	19639516
+r3             0x3a87c2f8	981975800
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c8	3069837768
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10610	0x10610 <main+76>
+cpsr           0x60000010	1610612752
+
+
+147		sub	r3, r3, r2
+r0             0x3a87c2f8	981975800
+r1             0x32	50
+r2             0x3a87c2f8	981975800
+r3             0x3a87c2f8	981975800
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c8	3069837768
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10614	0x10614 <main+80>
+cpsr           0x60000010	1610612752
+
+
+148		str	r3, [fp, #-12]
+r0             0x3a87c2f8	981975800
+r1             0x32	50
+r2             0x3a87c2f8	981975800
+r3             0x0	0
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c8	3069837768
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10618	0x10618 <main+84>
+cpsr           0x60000010	1610612752
+
+
+149		ldr	r3, [fp, #-8]
+r0             0x3a87c2f8	981975800
+r1             0x32	50
+r2             0x3a87c2f8	981975800
+r3             0x0	0
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c8	3069837768
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1061c	0x1061c <main+88>
+cpsr           0x60000010	1610612752
+
+
+150		lsl	r3, r3, #2
+r0             0x3a87c2f8	981975800
+r1             0x32	50
+r2             0x3a87c2f8	981975800
+r3             0x4	4
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c8	3069837768
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10620	0x10620 <main+92>
+cpsr           0x60000010	1610612752
+
+
+151		sub	r2, fp, #4
+r0             0x3a87c2f8	981975800
+r1             0x32	50
+r2             0x3a87c2f8	981975800
+r3             0x10	16
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c8	3069837768
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10624	0x10624 <main+96>
+cpsr           0x60000010	1610612752
+
+
+152		add	r3, r2, r3
+r0             0x3a87c2f8	981975800
+r1             0x32	50
+r2             0xbeffef28	3204443944
+r3             0x10	16
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c8	3069837768
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10628	0x10628 <main+100>
+cpsr           0x60000010	1610612752
+
+
+153		ldr	r2, [fp, #-12]
+r0             0x3a87c2f8	981975800
+r1             0x32	50
+r2             0xbeffef28	3204443944
+r3             0xbeffef38	3204443960
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c8	3069837768
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1062c	0x1062c <main+104>
+cpsr           0x60000010	1610612752
+
+
+154		str	r2, [r3, #-48]
+r0             0x3a87c2f8	981975800
+r1             0x32	50
+r2             0x0	0
+r3             0xbeffef38	3204443960
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c8	3069837768
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10630	0x10630 <main+108>
+cpsr           0x60000010	1610612752
+
+
+155		ldr	r3, [fp, #-8]
+r0             0x3a87c2f8	981975800
+r1             0x32	50
+r2             0x0	0
+r3             0xbeffef38	3204443960
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c8	3069837768
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10634	0x10634 <main+112>
+cpsr           0x60000010	1610612752
+
+
+156		add	r3, r3, #1
+r0             0x3a87c2f8	981975800
+r1             0x32	50
+r2             0x0	0
+r3             0x4	4
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c8	3069837768
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10638	0x10638 <main+116>
+cpsr           0x60000010	1610612752
+
+
+157		str	r3, [fp, #-8]
+r0             0x3a87c2f8	981975800
+r1             0x32	50
+r2             0x0	0
+r3             0x5	5
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c8	3069837768
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1063c	0x1063c <main+120>
+cpsr           0x60000010	1610612752
+
+
+159		ldr	r3, [fp, #-8]
+r0             0x3a87c2f8	981975800
+r1             0x32	50
+r2             0x0	0
+r3             0x5	5
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c8	3069837768
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10640	0x10640 <main+124>
+cpsr           0x60000010	1610612752
+
+
+160		cmp	r3, #9
+r0             0x3a87c2f8	981975800
+r1             0x32	50
+r2             0x0	0
+r3             0x5	5
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c8	3069837768
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10644	0x10644 <main+128>
+cpsr           0x60000010	1610612752
+
+
+161		ble	.L10
+r0             0x3a87c2f8	981975800
+r1             0x32	50
+r2             0x0	0
+r3             0x5	5
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c8	3069837768
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10648	0x10648 <main+132>
+cpsr           0x80000010	-2147483632
+
+
+138		bl	rand
+r0             0x3a87c2f8	981975800
+r1             0x32	50
+r2             0x0	0
+r3             0x5	5
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01c8	3069837768
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105f0	0x105f0 <main+44>
+cpsr           0x80000010	-2147483632
+
+
+139		mov	r3, r0
+r0             0x680d9c07	1745722375
+r1             0x0	0
+r2             0x1	1
+r3             0xb6fa14c4	3069842628
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01cc	3069837772
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105f4	0x105f4 <main+48>
+cpsr           0x60000010	1610612752
+
+
+140		ldr	r2, .L12
+r0             0x680d9c07	1745722375
+r1             0x0	0
+r2             0x1	1
+r3             0x680d9c07	1745722375
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01cc	3069837772
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105f8	0x105f8 <main+52>
+cpsr           0x60000010	1610612752
+
+
+141		smull	r1, r2, r2, r3
+r0             0x680d9c07	1745722375
+r1             0x0	0
+r2             0x51eb851f	1374389535
+r3             0x680d9c07	1745722375
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01cc	3069837772
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105fc	0x105fc <main+56>
+cpsr           0x60000010	1610612752
+
+
+142		asr	r1, r2, #4
+r0             0x680d9c07	1745722375
+r1             0x1d2287d9	488802265
+r2             0x214c08f8	558631160
+r3             0x680d9c07	1745722375
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01cc	3069837772
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10600	0x10600 <main+60>
+cpsr           0x60000010	1610612752
+
+
+143		asr	r2, r3, #31
+r0             0x680d9c07	1745722375
+r1             0x214c08f	34914447
+r2             0x214c08f8	558631160
+r3             0x680d9c07	1745722375
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01cc	3069837772
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10604	0x10604 <main+64>
+cpsr           0x60000010	1610612752
+
+
+144		sub	r2, r1, r2
+r0             0x680d9c07	1745722375
+r1             0x214c08f	34914447
+r2             0x0	0
+r3             0x680d9c07	1745722375
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01cc	3069837772
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10608	0x10608 <main+68>
+cpsr           0x60000010	1610612752
+
+
+145		mov	r1, #50
+r0             0x680d9c07	1745722375
+r1             0x214c08f	34914447
+r2             0x214c08f	34914447
+r3             0x680d9c07	1745722375
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01cc	3069837772
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1060c	0x1060c <main+72>
+cpsr           0x60000010	1610612752
+
+
+146		mul	r2, r1, r2
+r0             0x680d9c07	1745722375
+r1             0x32	50
+r2             0x214c08f	34914447
+r3             0x680d9c07	1745722375
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01cc	3069837772
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10610	0x10610 <main+76>
+cpsr           0x60000010	1610612752
+
+
+147		sub	r3, r3, r2
+r0             0x680d9c07	1745722375
+r1             0x32	50
+r2             0x680d9bee	1745722350
+r3             0x680d9c07	1745722375
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01cc	3069837772
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10614	0x10614 <main+80>
+cpsr           0x60000010	1610612752
+
+
+148		str	r3, [fp, #-12]
+r0             0x680d9c07	1745722375
+r1             0x32	50
+r2             0x680d9bee	1745722350
+r3             0x19	25
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01cc	3069837772
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10618	0x10618 <main+84>
+cpsr           0x60000010	1610612752
+
+
+149		ldr	r3, [fp, #-8]
+r0             0x680d9c07	1745722375
+r1             0x32	50
+r2             0x680d9bee	1745722350
+r3             0x19	25
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01cc	3069837772
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1061c	0x1061c <main+88>
+cpsr           0x60000010	1610612752
+
+
+150		lsl	r3, r3, #2
+r0             0x680d9c07	1745722375
+r1             0x32	50
+r2             0x680d9bee	1745722350
+r3             0x5	5
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01cc	3069837772
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10620	0x10620 <main+92>
+cpsr           0x60000010	1610612752
+
+
+151		sub	r2, fp, #4
+r0             0x680d9c07	1745722375
+r1             0x32	50
+r2             0x680d9bee	1745722350
+r3             0x14	20
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01cc	3069837772
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10624	0x10624 <main+96>
+cpsr           0x60000010	1610612752
+
+
+152		add	r3, r2, r3
+r0             0x680d9c07	1745722375
+r1             0x32	50
+r2             0xbeffef28	3204443944
+r3             0x14	20
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01cc	3069837772
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10628	0x10628 <main+100>
+cpsr           0x60000010	1610612752
+
+
+153		ldr	r2, [fp, #-12]
+r0             0x680d9c07	1745722375
+r1             0x32	50
+r2             0xbeffef28	3204443944
+r3             0xbeffef3c	3204443964
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01cc	3069837772
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1062c	0x1062c <main+104>
+cpsr           0x60000010	1610612752
+
+
+154		str	r2, [r3, #-48]
+r0             0x680d9c07	1745722375
+r1             0x32	50
+r2             0x19	25
+r3             0xbeffef3c	3204443964
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01cc	3069837772
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10630	0x10630 <main+108>
+cpsr           0x60000010	1610612752
+
+
+155		ldr	r3, [fp, #-8]
+r0             0x680d9c07	1745722375
+r1             0x32	50
+r2             0x19	25
+r3             0xbeffef3c	3204443964
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01cc	3069837772
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10634	0x10634 <main+112>
+cpsr           0x60000010	1610612752
+
+
+156		add	r3, r3, #1
+r0             0x680d9c07	1745722375
+r1             0x32	50
+r2             0x19	25
+r3             0x5	5
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01cc	3069837772
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10638	0x10638 <main+116>
+cpsr           0x60000010	1610612752
+
+
+157		str	r3, [fp, #-8]
+r0             0x680d9c07	1745722375
+r1             0x32	50
+r2             0x19	25
+r3             0x6	6
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01cc	3069837772
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1063c	0x1063c <main+120>
+cpsr           0x60000010	1610612752
+
+
+159		ldr	r3, [fp, #-8]
+r0             0x680d9c07	1745722375
+r1             0x32	50
+r2             0x19	25
+r3             0x6	6
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01cc	3069837772
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10640	0x10640 <main+124>
+cpsr           0x60000010	1610612752
+
+
+160		cmp	r3, #9
+r0             0x680d9c07	1745722375
+r1             0x32	50
+r2             0x19	25
+r3             0x6	6
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01cc	3069837772
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10644	0x10644 <main+128>
+cpsr           0x60000010	1610612752
+
+
+161		ble	.L10
+r0             0x680d9c07	1745722375
+r1             0x32	50
+r2             0x19	25
+r3             0x6	6
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01cc	3069837772
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10648	0x10648 <main+132>
+cpsr           0x80000010	-2147483632
+
+
+138		bl	rand
+r0             0x680d9c07	1745722375
+r1             0x32	50
+r2             0x19	25
+r3             0x6	6
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01cc	3069837772
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105f0	0x105f0 <main+44>
+cpsr           0x80000010	-2147483632
+
+
+139		mov	r3, r0
+r0             0x67a1aaad	1738648237
+r1             0x0	0
+r2             0x1	1
+r3             0xb6fa14c4	3069842628
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d0	3069837776
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105f4	0x105f4 <main+48>
+cpsr           0x60000010	1610612752
+
+
+140		ldr	r2, .L12
+r0             0x67a1aaad	1738648237
+r1             0x0	0
+r2             0x1	1
+r3             0x67a1aaad	1738648237
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d0	3069837776
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105f8	0x105f8 <main+52>
+cpsr           0x60000010	1610612752
+
+
+141		smull	r1, r2, r2, r3
+r0             0x67a1aaad	1738648237
+r1             0x0	0
+r2             0x51eb851f	1374389535
+r3             0x67a1aaad	1738648237
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d0	3069837776
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105fc	0x105fc <main+56>
+cpsr           0x60000010	1610612752
+
+
+142		asr	r1, r2, #4
+r0             0x67a1aaad	1738648237
+r1             0xf40e8bf3	4094594035
+r2             0x21297e4b	556367435
+r3             0x67a1aaad	1738648237
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d0	3069837776
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10600	0x10600 <main+60>
+cpsr           0x60000010	1610612752
+
+
+143		asr	r2, r3, #31
+r0             0x67a1aaad	1738648237
+r1             0x21297e4	34772964
+r2             0x21297e4b	556367435
+r3             0x67a1aaad	1738648237
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d0	3069837776
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10604	0x10604 <main+64>
+cpsr           0x60000010	1610612752
+
+
+144		sub	r2, r1, r2
+r0             0x67a1aaad	1738648237
+r1             0x21297e4	34772964
+r2             0x0	0
+r3             0x67a1aaad	1738648237
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d0	3069837776
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10608	0x10608 <main+68>
+cpsr           0x60000010	1610612752
+
+
+145		mov	r1, #50
+r0             0x67a1aaad	1738648237
+r1             0x21297e4	34772964
+r2             0x21297e4	34772964
+r3             0x67a1aaad	1738648237
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d0	3069837776
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1060c	0x1060c <main+72>
+cpsr           0x60000010	1610612752
+
+
+146		mul	r2, r1, r2
+r0             0x67a1aaad	1738648237
+r1             0x32	50
+r2             0x21297e4	34772964
+r3             0x67a1aaad	1738648237
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d0	3069837776
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10610	0x10610 <main+76>
+cpsr           0x60000010	1610612752
+
+
+147		sub	r3, r3, r2
+r0             0x67a1aaad	1738648237
+r1             0x32	50
+r2             0x67a1aa88	1738648200
+r3             0x67a1aaad	1738648237
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d0	3069837776
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10614	0x10614 <main+80>
+cpsr           0x60000010	1610612752
+
+
+148		str	r3, [fp, #-12]
+r0             0x67a1aaad	1738648237
+r1             0x32	50
+r2             0x67a1aa88	1738648200
+r3             0x25	37
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d0	3069837776
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10618	0x10618 <main+84>
+cpsr           0x60000010	1610612752
+
+
+149		ldr	r3, [fp, #-8]
+r0             0x67a1aaad	1738648237
+r1             0x32	50
+r2             0x67a1aa88	1738648200
+r3             0x25	37
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d0	3069837776
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1061c	0x1061c <main+88>
+cpsr           0x60000010	1610612752
+
+
+150		lsl	r3, r3, #2
+r0             0x67a1aaad	1738648237
+r1             0x32	50
+r2             0x67a1aa88	1738648200
+r3             0x6	6
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d0	3069837776
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10620	0x10620 <main+92>
+cpsr           0x60000010	1610612752
+
+
+151		sub	r2, fp, #4
+r0             0x67a1aaad	1738648237
+r1             0x32	50
+r2             0x67a1aa88	1738648200
+r3             0x18	24
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d0	3069837776
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10624	0x10624 <main+96>
+cpsr           0x60000010	1610612752
+
+
+152		add	r3, r2, r3
+r0             0x67a1aaad	1738648237
+r1             0x32	50
+r2             0xbeffef28	3204443944
+r3             0x18	24
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d0	3069837776
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10628	0x10628 <main+100>
+cpsr           0x60000010	1610612752
+
+
+153		ldr	r2, [fp, #-12]
+r0             0x67a1aaad	1738648237
+r1             0x32	50
+r2             0xbeffef28	3204443944
+r3             0xbeffef40	3204443968
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d0	3069837776
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1062c	0x1062c <main+104>
+cpsr           0x60000010	1610612752
+
+
+154		str	r2, [r3, #-48]
+r0             0x67a1aaad	1738648237
+r1             0x32	50
+r2             0x25	37
+r3             0xbeffef40	3204443968
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d0	3069837776
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10630	0x10630 <main+108>
+cpsr           0x60000010	1610612752
+
+
+155		ldr	r3, [fp, #-8]
+r0             0x67a1aaad	1738648237
+r1             0x32	50
+r2             0x25	37
+r3             0xbeffef40	3204443968
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d0	3069837776
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10634	0x10634 <main+112>
+cpsr           0x60000010	1610612752
+
+
+156		add	r3, r3, #1
+r0             0x67a1aaad	1738648237
+r1             0x32	50
+r2             0x25	37
+r3             0x6	6
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d0	3069837776
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10638	0x10638 <main+116>
+cpsr           0x60000010	1610612752
+
+
+157		str	r3, [fp, #-8]
+r0             0x67a1aaad	1738648237
+r1             0x32	50
+r2             0x25	37
+r3             0x7	7
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d0	3069837776
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1063c	0x1063c <main+120>
+cpsr           0x60000010	1610612752
+
+
+159		ldr	r3, [fp, #-8]
+r0             0x67a1aaad	1738648237
+r1             0x32	50
+r2             0x25	37
+r3             0x7	7
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d0	3069837776
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10640	0x10640 <main+124>
+cpsr           0x60000010	1610612752
+
+
+160		cmp	r3, #9
+r0             0x67a1aaad	1738648237
+r1             0x32	50
+r2             0x25	37
+r3             0x7	7
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d0	3069837776
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10644	0x10644 <main+128>
+cpsr           0x60000010	1610612752
+
+
+161		ble	.L10
+r0             0x67a1aaad	1738648237
+r1             0x32	50
+r2             0x25	37
+r3             0x7	7
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d0	3069837776
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10648	0x10648 <main+132>
+cpsr           0x80000010	-2147483632
+
+
+138		bl	rand
+r0             0x67a1aaad	1738648237
+r1             0x32	50
+r2             0x25	37
+r3             0x7	7
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d0	3069837776
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105f0	0x105f0 <main+44>
+cpsr           0x80000010	-2147483632
+
+
+139		mov	r3, r0
+r0             0x3d609f15	1029742357
+r1             0x0	0
+r2             0x1	1
+r3             0xb6fa14c4	3069842628
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d4	3069837780
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105f4	0x105f4 <main+48>
+cpsr           0x60000010	1610612752
+
+
+140		ldr	r2, .L12
+r0             0x3d609f15	1029742357
+r1             0x0	0
+r2             0x1	1
+r3             0x3d609f15	1029742357
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d4	3069837780
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105f8	0x105f8 <main+52>
+cpsr           0x60000010	1610612752
+
+
+141		smull	r1, r2, r2, r3
+r0             0x3d609f15	1029742357
+r1             0x0	0
+r2             0x51eb851f	1374389535
+r3             0x3d609f15	1029742357
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d4	3069837780
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105fc	0x105fc <main+56>
+cpsr           0x60000010	1610612752
+
+
+142		asr	r1, r2, #4
+r0             0x3d609f15	1029742357
+r1             0x4ea02c8b	1319120011
+r2             0x13a409f2	329517554
+r3             0x3d609f15	1029742357
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d4	3069837780
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10600	0x10600 <main+60>
+cpsr           0x60000010	1610612752
+
+
+143		asr	r2, r3, #31
+r0             0x3d609f15	1029742357
+r1             0x13a409f	20594847
+r2             0x13a409f2	329517554
+r3             0x3d609f15	1029742357
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d4	3069837780
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10604	0x10604 <main+64>
+cpsr           0x60000010	1610612752
+
+
+144		sub	r2, r1, r2
+r0             0x3d609f15	1029742357
+r1             0x13a409f	20594847
+r2             0x0	0
+r3             0x3d609f15	1029742357
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d4	3069837780
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10608	0x10608 <main+68>
+cpsr           0x60000010	1610612752
+
+
+145		mov	r1, #50
+r0             0x3d609f15	1029742357
+r1             0x13a409f	20594847
+r2             0x13a409f	20594847
+r3             0x3d609f15	1029742357
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d4	3069837780
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1060c	0x1060c <main+72>
+cpsr           0x60000010	1610612752
+
+
+146		mul	r2, r1, r2
+r0             0x3d609f15	1029742357
+r1             0x32	50
+r2             0x13a409f	20594847
+r3             0x3d609f15	1029742357
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d4	3069837780
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10610	0x10610 <main+76>
+cpsr           0x60000010	1610612752
+
+
+147		sub	r3, r3, r2
+r0             0x3d609f15	1029742357
+r1             0x32	50
+r2             0x3d609f0e	1029742350
+r3             0x3d609f15	1029742357
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d4	3069837780
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10614	0x10614 <main+80>
+cpsr           0x60000010	1610612752
+
+
+148		str	r3, [fp, #-12]
+r0             0x3d609f15	1029742357
+r1             0x32	50
+r2             0x3d609f0e	1029742350
+r3             0x7	7
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d4	3069837780
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10618	0x10618 <main+84>
+cpsr           0x60000010	1610612752
+
+
+149		ldr	r3, [fp, #-8]
+r0             0x3d609f15	1029742357
+r1             0x32	50
+r2             0x3d609f0e	1029742350
+r3             0x7	7
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d4	3069837780
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1061c	0x1061c <main+88>
+cpsr           0x60000010	1610612752
+
+
+150		lsl	r3, r3, #2
+r0             0x3d609f15	1029742357
+r1             0x32	50
+r2             0x3d609f0e	1029742350
+r3             0x7	7
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d4	3069837780
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10620	0x10620 <main+92>
+cpsr           0x60000010	1610612752
+
+
+151		sub	r2, fp, #4
+r0             0x3d609f15	1029742357
+r1             0x32	50
+r2             0x3d609f0e	1029742350
+r3             0x1c	28
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d4	3069837780
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10624	0x10624 <main+96>
+cpsr           0x60000010	1610612752
+
+
+152		add	r3, r2, r3
+r0             0x3d609f15	1029742357
+r1             0x32	50
+r2             0xbeffef28	3204443944
+r3             0x1c	28
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d4	3069837780
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10628	0x10628 <main+100>
+cpsr           0x60000010	1610612752
+
+
+153		ldr	r2, [fp, #-12]
+r0             0x3d609f15	1029742357
+r1             0x32	50
+r2             0xbeffef28	3204443944
+r3             0xbeffef44	3204443972
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d4	3069837780
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1062c	0x1062c <main+104>
+cpsr           0x60000010	1610612752
+
+
+154		str	r2, [r3, #-48]
+r0             0x3d609f15	1029742357
+r1             0x32	50
+r2             0x7	7
+r3             0xbeffef44	3204443972
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d4	3069837780
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10630	0x10630 <main+108>
+cpsr           0x60000010	1610612752
+
+
+155		ldr	r3, [fp, #-8]
+r0             0x3d609f15	1029742357
+r1             0x32	50
+r2             0x7	7
+r3             0xbeffef44	3204443972
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d4	3069837780
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10634	0x10634 <main+112>
+cpsr           0x60000010	1610612752
+
+
+156		add	r3, r3, #1
+r0             0x3d609f15	1029742357
+r1             0x32	50
+r2             0x7	7
+r3             0x7	7
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d4	3069837780
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10638	0x10638 <main+116>
+cpsr           0x60000010	1610612752
+
+
+157		str	r3, [fp, #-8]
+r0             0x3d609f15	1029742357
+r1             0x32	50
+r2             0x7	7
+r3             0x8	8
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d4	3069837780
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1063c	0x1063c <main+120>
+cpsr           0x60000010	1610612752
+
+
+159		ldr	r3, [fp, #-8]
+r0             0x3d609f15	1029742357
+r1             0x32	50
+r2             0x7	7
+r3             0x8	8
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d4	3069837780
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10640	0x10640 <main+124>
+cpsr           0x60000010	1610612752
+
+
+160		cmp	r3, #9
+r0             0x3d609f15	1029742357
+r1             0x32	50
+r2             0x7	7
+r3             0x8	8
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d4	3069837780
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10644	0x10644 <main+128>
+cpsr           0x60000010	1610612752
+
+
+161		ble	.L10
+r0             0x3d609f15	1029742357
+r1             0x32	50
+r2             0x7	7
+r3             0x8	8
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d4	3069837780
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10648	0x10648 <main+132>
+cpsr           0x80000010	-2147483632
+
+
+138		bl	rand
+r0             0x3d609f15	1029742357
+r1             0x32	50
+r2             0x7	7
+r3             0x8	8
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d4	3069837780
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105f0	0x105f0 <main+44>
+cpsr           0x80000010	-2147483632
+
+
+139		mov	r3, r0
+r0             0x2428cc8b	606653579
+r1             0x0	0
+r2             0x1	1
+r3             0xb6fa14c4	3069842628
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d8	3069837784
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105f4	0x105f4 <main+48>
+cpsr           0x60000010	1610612752
+
+
+140		ldr	r2, .L12
+r0             0x2428cc8b	606653579
+r1             0x0	0
+r2             0x1	1
+r3             0x2428cc8b	606653579
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d8	3069837784
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105f8	0x105f8 <main+52>
+cpsr           0x60000010	1610612752
+
+
+141		smull	r1, r2, r2, r3
+r0             0x2428cc8b	606653579
+r1             0x0	0
+r2             0x51eb851f	1374389535
+r3             0x2428cc8b	606653579
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d8	3069837784
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105fc	0x105fc <main+56>
+cpsr           0x60000010	1610612752
+
+
+142		asr	r1, r2, #4
+r0             0x2428cc8b	606653579
+r1             0x51cdfbd5	1372453845
+r2             0xb922cf9	194129145
+r3             0x2428cc8b	606653579
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d8	3069837784
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10600	0x10600 <main+60>
+cpsr           0x60000010	1610612752
+
+
+143		asr	r2, r3, #31
+r0             0x2428cc8b	606653579
+r1             0xb922cf	12133071
+r2             0xb922cf9	194129145
+r3             0x2428cc8b	606653579
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d8	3069837784
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10604	0x10604 <main+64>
+cpsr           0x60000010	1610612752
+
+
+144		sub	r2, r1, r2
+r0             0x2428cc8b	606653579
+r1             0xb922cf	12133071
+r2             0x0	0
+r3             0x2428cc8b	606653579
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d8	3069837784
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10608	0x10608 <main+68>
+cpsr           0x60000010	1610612752
+
+
+145		mov	r1, #50
+r0             0x2428cc8b	606653579
+r1             0xb922cf	12133071
+r2             0xb922cf	12133071
+r3             0x2428cc8b	606653579
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d8	3069837784
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1060c	0x1060c <main+72>
+cpsr           0x60000010	1610612752
+
+
+146		mul	r2, r1, r2
+r0             0x2428cc8b	606653579
+r1             0x32	50
+r2             0xb922cf	12133071
+r3             0x2428cc8b	606653579
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d8	3069837784
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10610	0x10610 <main+76>
+cpsr           0x60000010	1610612752
+
+
+147		sub	r3, r3, r2
+r0             0x2428cc8b	606653579
+r1             0x32	50
+r2             0x2428cc6e	606653550
+r3             0x2428cc8b	606653579
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d8	3069837784
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10614	0x10614 <main+80>
+cpsr           0x60000010	1610612752
+
+
+148		str	r3, [fp, #-12]
+r0             0x2428cc8b	606653579
+r1             0x32	50
+r2             0x2428cc6e	606653550
+r3             0x1d	29
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d8	3069837784
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10618	0x10618 <main+84>
+cpsr           0x60000010	1610612752
+
+
+149		ldr	r3, [fp, #-8]
+r0             0x2428cc8b	606653579
+r1             0x32	50
+r2             0x2428cc6e	606653550
+r3             0x1d	29
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d8	3069837784
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1061c	0x1061c <main+88>
+cpsr           0x60000010	1610612752
+
+
+150		lsl	r3, r3, #2
+r0             0x2428cc8b	606653579
+r1             0x32	50
+r2             0x2428cc6e	606653550
+r3             0x8	8
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d8	3069837784
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10620	0x10620 <main+92>
+cpsr           0x60000010	1610612752
+
+
+151		sub	r2, fp, #4
+r0             0x2428cc8b	606653579
+r1             0x32	50
+r2             0x2428cc6e	606653550
+r3             0x20	32
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d8	3069837784
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10624	0x10624 <main+96>
+cpsr           0x60000010	1610612752
+
+
+152		add	r3, r2, r3
+r0             0x2428cc8b	606653579
+r1             0x32	50
+r2             0xbeffef28	3204443944
+r3             0x20	32
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d8	3069837784
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10628	0x10628 <main+100>
+cpsr           0x60000010	1610612752
+
+
+153		ldr	r2, [fp, #-12]
+r0             0x2428cc8b	606653579
+r1             0x32	50
+r2             0xbeffef28	3204443944
+r3             0xbeffef48	3204443976
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d8	3069837784
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1062c	0x1062c <main+104>
+cpsr           0x60000010	1610612752
+
+
+154		str	r2, [r3, #-48]
+r0             0x2428cc8b	606653579
+r1             0x32	50
+r2             0x1d	29
+r3             0xbeffef48	3204443976
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d8	3069837784
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10630	0x10630 <main+108>
+cpsr           0x60000010	1610612752
+
+
+155		ldr	r3, [fp, #-8]
+r0             0x2428cc8b	606653579
+r1             0x32	50
+r2             0x1d	29
+r3             0xbeffef48	3204443976
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d8	3069837784
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10634	0x10634 <main+112>
+cpsr           0x60000010	1610612752
+
+
+156		add	r3, r3, #1
+r0             0x2428cc8b	606653579
+r1             0x32	50
+r2             0x1d	29
+r3             0x8	8
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d8	3069837784
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10638	0x10638 <main+116>
+cpsr           0x60000010	1610612752
+
+
+157		str	r3, [fp, #-8]
+r0             0x2428cc8b	606653579
+r1             0x32	50
+r2             0x1d	29
+r3             0x9	9
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d8	3069837784
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1063c	0x1063c <main+120>
+cpsr           0x60000010	1610612752
+
+
+159		ldr	r3, [fp, #-8]
+r0             0x2428cc8b	606653579
+r1             0x32	50
+r2             0x1d	29
+r3             0x9	9
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d8	3069837784
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10640	0x10640 <main+124>
+cpsr           0x60000010	1610612752
+
+
+160		cmp	r3, #9
+r0             0x2428cc8b	606653579
+r1             0x32	50
+r2             0x1d	29
+r3             0x9	9
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d8	3069837784
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10644	0x10644 <main+128>
+cpsr           0x60000010	1610612752
+
+
+161		ble	.L10
+r0             0x2428cc8b	606653579
+r1             0x32	50
+r2             0x1d	29
+r3             0x9	9
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d8	3069837784
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10648	0x10648 <main+132>
+cpsr           0x60000010	1610612752
+
+
+138		bl	rand
+r0             0x2428cc8b	606653579
+r1             0x32	50
+r2             0x1d	29
+r3             0x9	9
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01d8	3069837784
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105f0	0x105f0 <main+44>
+cpsr           0x60000010	1610612752
+
+
+139		mov	r3, r0
+r0             0x775130a3	2001809571
+r1             0x0	0
+r2             0x1	1
+r3             0xb6fa14c4	3069842628
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01dc	3069837788
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105f4	0x105f4 <main+48>
+cpsr           0x60000010	1610612752
+
+
+140		ldr	r2, .L12
+r0             0x775130a3	2001809571
+r1             0x0	0
+r2             0x1	1
+r3             0x775130a3	2001809571
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01dc	3069837788
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105f8	0x105f8 <main+52>
+cpsr           0x60000010	1610612752
+
+
+141		smull	r1, r2, r2, r3
+r0             0x775130a3	2001809571
+r1             0x0	0
+r2             0x51eb851f	1374389535
+r3             0x775130a3	2001809571
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01dc	3069837788
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x105fc	0x105fc <main+56>
+cpsr           0x60000010	1610612752
+
+
+142		asr	r1, r2, #4
+r0             0x775130a3	2001809571
+r1             0xd9ba92bd	3652883133
+r2             0x262e75f6	640579062
+r3             0x775130a3	2001809571
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01dc	3069837788
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10600	0x10600 <main+60>
+cpsr           0x60000010	1610612752
+
+
+143		asr	r2, r3, #31
+r0             0x775130a3	2001809571
+r1             0x262e75f	40036191
+r2             0x262e75f6	640579062
+r3             0x775130a3	2001809571
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01dc	3069837788
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10604	0x10604 <main+64>
+cpsr           0x60000010	1610612752
+
+
+144		sub	r2, r1, r2
+r0             0x775130a3	2001809571
+r1             0x262e75f	40036191
+r2             0x0	0
+r3             0x775130a3	2001809571
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01dc	3069837788
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10608	0x10608 <main+68>
+cpsr           0x60000010	1610612752
+
+
+145		mov	r1, #50
+r0             0x775130a3	2001809571
+r1             0x262e75f	40036191
+r2             0x262e75f	40036191
+r3             0x775130a3	2001809571
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01dc	3069837788
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1060c	0x1060c <main+72>
+cpsr           0x60000010	1610612752
+
+
+146		mul	r2, r1, r2
+r0             0x775130a3	2001809571
+r1             0x32	50
+r2             0x262e75f	40036191
+r3             0x775130a3	2001809571
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01dc	3069837788
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10610	0x10610 <main+76>
+cpsr           0x60000010	1610612752
+
+
+147		sub	r3, r3, r2
+r0             0x775130a3	2001809571
+r1             0x32	50
+r2             0x7751308e	2001809550
+r3             0x775130a3	2001809571
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01dc	3069837788
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10614	0x10614 <main+80>
+cpsr           0x60000010	1610612752
+
+
+148		str	r3, [fp, #-12]
+r0             0x775130a3	2001809571
+r1             0x32	50
+r2             0x7751308e	2001809550
+r3             0x15	21
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01dc	3069837788
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10618	0x10618 <main+84>
+cpsr           0x60000010	1610612752
+
+
+149		ldr	r3, [fp, #-8]
+r0             0x775130a3	2001809571
+r1             0x32	50
+r2             0x7751308e	2001809550
+r3             0x15	21
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01dc	3069837788
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1061c	0x1061c <main+88>
+cpsr           0x60000010	1610612752
+
+
+150		lsl	r3, r3, #2
+r0             0x775130a3	2001809571
+r1             0x32	50
+r2             0x7751308e	2001809550
+r3             0x9	9
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01dc	3069837788
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10620	0x10620 <main+92>
+cpsr           0x60000010	1610612752
+
+
+151		sub	r2, fp, #4
+r0             0x775130a3	2001809571
+r1             0x32	50
+r2             0x7751308e	2001809550
+r3             0x24	36
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01dc	3069837788
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10624	0x10624 <main+96>
+cpsr           0x60000010	1610612752
+
+
+152		add	r3, r2, r3
+r0             0x775130a3	2001809571
+r1             0x32	50
+r2             0xbeffef28	3204443944
+r3             0x24	36
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01dc	3069837788
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10628	0x10628 <main+100>
+cpsr           0x60000010	1610612752
+
+
+153		ldr	r2, [fp, #-12]
+r0             0x775130a3	2001809571
+r1             0x32	50
+r2             0xbeffef28	3204443944
+r3             0xbeffef4c	3204443980
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01dc	3069837788
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1062c	0x1062c <main+104>
+cpsr           0x60000010	1610612752
+
+
+154		str	r2, [r3, #-48]
+r0             0x775130a3	2001809571
+r1             0x32	50
+r2             0x15	21
+r3             0xbeffef4c	3204443980
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01dc	3069837788
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10630	0x10630 <main+108>
+cpsr           0x60000010	1610612752
+
+
+155		ldr	r3, [fp, #-8]
+r0             0x775130a3	2001809571
+r1             0x32	50
+r2             0x15	21
+r3             0xbeffef4c	3204443980
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01dc	3069837788
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10634	0x10634 <main+112>
+cpsr           0x60000010	1610612752
+
+
+156		add	r3, r3, #1
+r0             0x775130a3	2001809571
+r1             0x32	50
+r2             0x15	21
+r3             0x9	9
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01dc	3069837788
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10638	0x10638 <main+116>
+cpsr           0x60000010	1610612752
+
+
+157		str	r3, [fp, #-8]
+r0             0x775130a3	2001809571
+r1             0x32	50
+r2             0x15	21
+r3             0xa	10
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01dc	3069837788
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1063c	0x1063c <main+120>
+cpsr           0x60000010	1610612752
+
+
+159		ldr	r3, [fp, #-8]
+r0             0x775130a3	2001809571
+r1             0x32	50
+r2             0x15	21
+r3             0xa	10
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01dc	3069837788
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10640	0x10640 <main+124>
+cpsr           0x60000010	1610612752
+
+
+160		cmp	r3, #9
+r0             0x775130a3	2001809571
+r1             0x32	50
+r2             0x15	21
+r3             0xa	10
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01dc	3069837788
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10644	0x10644 <main+128>
+cpsr           0x60000010	1610612752
+
+
+161		ble	.L10
+r0             0x775130a3	2001809571
+r1             0x32	50
+r2             0x15	21
+r3             0xa	10
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01dc	3069837788
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10648	0x10648 <main+132>
+cpsr           0x20000010	536870928
+
+
+162		sub	r3, fp, #52
+r0             0x775130a3	2001809571
+r1             0x32	50
+r2             0x15	21
+r3             0xa	10
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01dc	3069837788
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x1064c	0x1064c <main+136>
+cpsr           0x20000010	536870928
+
+
+163		mov	r1, #10
+r0             0x775130a3	2001809571
+r1             0x32	50
+r2             0x15	21
+r3             0xbeffeef8	3204443896
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01dc	3069837788
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10650	0x10650 <main+140>
+cpsr           0x20000010	536870928
+
+
+164		mov	r0, r3
+r0             0x775130a3	2001809571
+r1             0xa	10
+r2             0x15	21
+r3             0xbeffeef8	3204443896
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01dc	3069837788
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10654	0x10654 <main+144>
+cpsr           0x20000010	536870928
+
+
+165		bl	bubbleSort
+r0             0xbeffeef8	3204443896
+r1             0xa	10
+r2             0x15	21
+r3             0xbeffeef8	3204443896
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01dc	3069837788
+sp             0xbeffeef8	0xbeffeef8
+lr             0xb6fa01a8	-1225129560
+pc             0x10658	0x10658 <main+148>
+cpsr           0x20000010	536870928
+
+
+166		mov	r3, #0
+r0             0xbeffef0c	3204443916
+r1             0xbeffeef8	3204443896
+r2             0x9	9
+r3             0x9	9
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01dc	3069837788
+sp             0xbeffeef8	0xbeffeef8
+lr             0x10570	66928
+pc             0x1065c	0x1065c <main+152>
+cpsr           0x60000010	1610612752
+
+
+167		mov	r0, r3
+r0             0xbeffef0c	3204443916
+r1             0xbeffeef8	3204443896
+r2             0x9	9
+r3             0x0	0
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01dc	3069837788
+sp             0xbeffeef8	0xbeffeef8
+lr             0x10570	66928
+pc             0x10660	0x10660 <main+156>
+cpsr           0x60000010	1610612752
+
+
+168		sub	sp, fp, #4
+r0             0x0	0
+r1             0xbeffeef8	3204443896
+r2             0x9	9
+r3             0x0	0
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01dc	3069837788
+sp             0xbeffeef8	0xbeffeef8
+lr             0x10570	66928
+pc             0x10664	0x10664 <main+160>
+cpsr           0x60000010	1610612752
+
+
+main () at ordinaArray.s:170
+170		pop	{fp, pc}
+r0             0x0	0
+r1             0xbeffeef8	3204443896
+r2             0x9	9
+r3             0x0	0
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0xbeffef2c	3204443948
+r12            0xb6fa01dc	3069837788
+sp             0xbeffef28	0xbeffef28
+lr             0x10570	66928
+pc             0x10668	0x10668 <main+164>
+cpsr           0x60000010	1610612752
+
+
+__libc_start_main (main=0xbefff084, argc=-1225129984, argv=0xb6e7b678 <__libc_start_main+276>, init=<optimized out>, fini=0x106d0 <__libc_csu_fini>, rtld_fini=0xb6fdf2a4 <_dl_fini>, stack_end=0xbefff084) at libc-start.c:325
+325	libc-start.c: No such file or directory.
+r0             0x0	0
+r1             0xbeffeef8	3204443896
+r2             0x9	9
+r3             0x0	0
+r4             0x10670	67184
+r5             0x0	0
+r6             0x10370	66416
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0x0	0
+r12            0xb6fa01dc	3069837788
+sp             0xbeffef30	0xbeffef30
+lr             0x10570	66928
+pc             0xb6e7b678	0xb6e7b678 <__libc_start_main+276>
+cpsr           0x60000010	1610612752
+
+
+[Inferior 1 (process 966) exited normally]
+gdb_script:16: Error in sourced command file:
+The program has no registers now.

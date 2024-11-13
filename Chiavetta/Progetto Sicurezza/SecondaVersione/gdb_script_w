@@ -1,0 +1,23 @@
+set logging on
+
+break main
+
+run
+
+
+
+while(1)
+	
+	info registers
+	
+	echo \n
+	
+	echo \n
+	
+	step
+
+end
+
+
+
+quit

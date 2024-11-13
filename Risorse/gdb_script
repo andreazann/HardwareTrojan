@@ -1,0 +1,18 @@
+#!/bin/bash
+
+set logging on
+break main
+run
+
+set $i=0
+set $j=7
+
+while(1)
+	info registers
+	echo \n
+	echo \n
+	next
+	set $i = $i + 1
+end
+
+quit

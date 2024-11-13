@@ -1,0 +1,13 @@
+conf.txt
+
+numero di percorsi contenti i vari input
+(senza saltare spazio) n percorsi (occhio a tipo percorsi UNIX e Windows)
+
+input1.txt
+
+numero di elementi da ordinare
+(saltando uno spazio) n numeri
+
+Su Windows bisogna installare MinGW (gcc per il C e gdb per il C)
+
+(bisogna aggiungere gcc e gdb tra le variabili d'ambiente)

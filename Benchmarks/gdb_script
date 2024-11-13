@@ -1,0 +1,26 @@
+#!/bin/bash
+
+set logging on
+break main
+skip -rfu fopen
+skip -rfu fclose
+skip -rfu printf
+skip -rfu fgets
+skip -rfu atoi
+skip -rfu malloc
+skip -rfu rand
+skip -rfu fill_array
+skip -rfu free
+skip -rfu fscanf
+skip -rfu fflush
+skip -rfu exit
+run
+
+while(1)
+	info registers
+	echo \n
+	echo \n
+	step
+end
+
+quit

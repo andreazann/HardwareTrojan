@@ -1,0 +1,331 @@
+
+warning: Source file is more recent than executable.
+282		ble	.L95
+r0             0x1	1
+r1             0xbeffefe4	3204444132
+r2             0xbeffefec	3204444140
+r3             0x10940	67904
+r4             0x109f4	68084
+r5             0x0	0
+r6             0x10544	66884
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0x0	0
+r12            0xbeffef10	3204443920
+sp             0xbeffee90	0xbeffee90
+lr             0xb6e7b678	-1226328456
+pc             0x10940	0x10940 <main>
+cpsr           0x60000010	1610612752
+
+
+283	.L65:
+r0             0x1	1
+r1             0xbeffefe4	3204444132
+r2             0xbeffefec	3204444140
+r3             0x10940	67904
+r4             0x109f4	68084
+r5             0x0	0
+r6             0x10544	66884
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0x0	0
+r12            0xbeffef10	3204443920
+sp             0xbeffee78	0xbeffee78
+lr             0xb6e7b678	-1226328456
+pc             0x10944	0x10944 <main+4>
+cpsr           0x60000010	1610612752
+
+
+284		ldr	r0, [r9]
+r0             0x1	1
+r1             0xbeffefe4	3204444132
+r2             0xbeffefec	3204444140
+r3             0x10940	67904
+r4             0x109f4	68084
+r5             0x0	0
+r6             0x10544	66884
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0x0	0
+r12            0xbeffef10	3204443920
+sp             0xbeffee70	0xbeffee70
+lr             0xb6e7b678	-1226328456
+pc             0x10948	0x10948 <main+8>
+cpsr           0x60000010	1610612752
+
+
+285		cmp	r0, #0
+r0             0x1	1
+r1             0x10adc	68316
+r2             0xbeffefec	3204444140
+r3             0x10940	67904
+r4             0x109f4	68084
+r5             0x0	0
+r6             0x10544	66884
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0x0	0
+r12            0xbeffef10	3204443920
+sp             0xbeffee70	0xbeffee70
+lr             0xb6e7b678	-1226328456
+pc             0x1094c	0x1094c <main+12>
+cpsr           0x60000010	1610612752
+
+
+286		beq	.L56
+r0             0x10ae0	68320
+r1             0x10adc	68316
+r2             0xbeffefec	3204444140
+r3             0x10940	67904
+r4             0x109f4	68084
+r5             0x0	0
+r6             0x10544	66884
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0x0	0
+r12            0xbeffef10	3204443920
+sp             0xbeffee70	0xbeffee70
+lr             0xb6e7b678	-1226328456
+pc             0x10950	0x10950 <main+16>
+cpsr           0x60000010	1610612752
+
+
+287		ldr	ip, [r0, #4]
+r0             0x0	0
+r1             0xb6fa07c4	3069839300
+r2             0x0	0
+r3             0x1	1
+r4             0x109f4	68084
+r5             0x0	0
+r6             0x10544	66884
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0x0	0
+r12            0xac	172
+sp             0xbeffee70	0xbeffee70
+lr             0xb6ed2d60	-1225970336
+pc             0x10954	0x10954 <main+20>
+cpsr           0x60000010	1610612752
+
+
+288		ldr	lr, [r0]
+r0             0x0	0
+r1             0xb6fa07c4	3069839300
+r2             0x0	0
+r3             0x1	1
+r4             0x109f4	68084
+r5             0x0	0
+r6             0x10544	66884
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0x0	0
+r12            0xac	172
+sp             0xbeffee70	0xbeffee70
+lr             0xb6ed2d60	-1225970336
+pc             0x10958	0x10958 <main+24>
+cpsr           0x60000010	1610612752
+
+
+289		str	r1, [sp, #4]
+r0             0x0	0
+r1             0xb6fa07c4	3069839300
+r2             0x0	0
+r3             0x1	1
+r4             0x21398	136088
+r5             0x0	0
+r6             0x10544	66884
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0x0	0
+r12            0xac	172
+sp             0xbeffee70	0xbeffee70
+lr             0xb6ed2d60	-1225970336
+pc             0x1095c	0x1095c <main+28>
+cpsr           0x60000010	1610612752
+
+
+290		str	ip, [r1]
+r0             0x0	0
+r1             0xb6fa07c4	3069839300
+r2             0x0	0
+r3             0x1	1
+r4             0x21398	136088
+r5             0x0	0
+r6             0x10544	66884
+r7             0x0	0
+r8             0x2afd8	176088
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0x0	0
+r12            0xac	172
+sp             0xbeffee70	0xbeffee70
+lr             0xb6ed2d60	-1225970336
+pc             0x10960	0x10960 <main+32>
+cpsr           0x60000010	1610612752
+
+
+292		ldr	r1, .L102+32
+r0             0x0	0
+r1             0xb6fa07c4	3069839300
+r2             0x0	0
+r3             0x1	1
+r4             0x21398	136088
+r5             0x0	0
+r6             0x10aec	68332
+r7             0x0	0
+r8             0x2afd8	176088
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0x0	0
+r12            0xac	172
+sp             0xbeffee70	0xbeffee70
+lr             0xb6ed2d60	-1225970336
+pc             0x10964	0x10964 <main+36>
+cpsr           0x60000010	1610612752
+
+
+294		ldr	r2, [r0, #8]
+r0             0x0	0
+r1             0xb6fa07c4	3069839300
+r2             0x0	0
+r3             0x1	1
+r4             0x21398	136088
+r5             0x21528	136488
+r6             0x10aec	68332
+r7             0x0	0
+r8             0x2afd8	176088
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0x0	0
+r12            0xac	172
+sp             0xbeffee70	0xbeffee70
+lr             0xb6ed2d60	-1225970336
+pc             0x10968	0x10968 <main+40>
+cpsr           0x60000010	1610612752
+
+
+295		str	r3, [r9]
+r0             0x0	0
+r1             0xb6fa07c4	3069839300
+r2             0xbeffee74	3204443764
+r3             0x1	1
+r4             0x21398	136088
+r5             0x21528	136488
+r6             0x10aec	68332
+r7             0x0	0
+r8             0x2afd8	176088
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0x0	0
+r12            0xac	172
+sp             0xbeffee70	0xbeffee70
+lr             0xb6ed2d60	-1225970336
+pc             0x1096c	0x1096c <main+44>
+cpsr           0x60000010	1610612752
+
+
+296		str	r2, [r1]
+r0             0x0	0
+r1             0x10aec	68332
+r2             0xbeffee74	3204443764
+r3             0x1	1
+r4             0x21398	136088
+r5             0x21528	136488
+r6             0x10aec	68332
+r7             0x0	0
+r8             0x2afd8	176088
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0x0	0
+r12            0xac	172
+sp             0xbeffee70	0xbeffee70
+lr             0xb6ed2d60	-1225970336
+pc             0x10970	0x10970 <main+48>
+cpsr           0x60000010	1610612752
+
+
+297		str	lr, [r4]
+r0             0x0	0
+r1             0x10aec	68332
+r2             0xbeffee74	3204443764
+r3             0x1	1
+r4             0x21398	136088
+r5             0x21528	136488
+r6             0x10aec	68332
+r7             0x0	0
+r8             0x2afd8	176088
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0x0	0
+r12            0xac	172
+sp             0xbeffee70	0xbeffee70
+lr             0xb6ed2d60	-1225970336
+pc             0x10974	0x10974 <main+52>
+cpsr           0x60000010	1610612752
+
+
+__isoc99_fscanf (stream=0x0, format=0x10aec "%d") at isoc99_fscanf.c:30
+30	isoc99_fscanf.c: No such file or directory.
+r0             0x0	0
+r1             0x10aec	68332
+r2             0xbeffee74	3204443764
+r3             0x1	1
+r4             0x21398	136088
+r5             0x21528	136488
+r6             0x10aec	68332
+r7             0x0	0
+r8             0x2afd8	176088
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0x0	0
+r12            0xb6ebde04	3068911108
+sp             0xbeffee64	0xbeffee64
+lr             0x10978	67960
+pc             0xb6ebde08	0xb6ebde08 <__isoc99_fscanf+4>
+cpsr           0x60000010	1610612752
+
+
+
+Program received signal SIGSEGV, Segmentation fault.
+__isoc99_fscanf (stream=0x0, format=0x10aec "%d") at isoc99_fscanf.c:30
+30	in isoc99_fscanf.c
+r0             0x0	0
+r1             0x10aec	68332
+r2             0xbeffee74	3204443764
+r3             0x1	1
+r4             0x21398	136088
+r5             0x21528	136488
+r6             0x10aec	68332
+r7             0x0	0
+r8             0x2afd8	176088
+r9             0x0	0
+r10            0xb6fff000	3070226432
+r11            0x0	0
+r12            0xb6ebde04	3068911108
+sp             0xbeffee64	0xbeffee64
+lr             0x10978	67960
+pc             0xb6ebde08	0xb6ebde08 <__isoc99_fscanf+4>
+cpsr           0x60000010	1610612752
+
+
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+gdb_script:18: Error in sourced command file:
+The program has no registers now.
